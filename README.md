@@ -20,3 +20,5 @@ To find out more please email mmakwakw@student.wethinkcode.co.za
 Goals
 
 Restrictions
+
+Dir Structure
