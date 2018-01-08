@@ -1,3 +1,10 @@
+/* Display Layer */
+/* Dimensions */
+/* Text Styles */
+/* Element Styles */
+/* Animation */
+
+
 .bodyClass {
 
     /* Display Layer */
@@ -73,3 +80,45 @@
     /* Element Styles */
     /* Animation */
 }
+
+    .signUpDivButtonClass {
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 15vw;
+        height: 7vh;
+        margin: 15px;
+
+        /* Text Styles */
+        text-transform: none;
+        color: white;
+
+        /* Element Styles */
+        background-color: blue;
+        /* Animation */
+    }
+
+    .signInDivButtonClass {
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 15vw;
+        height: 7vh;
+        margin: 15px;
+
+        /* Text Styles */
+        text-transform: none;
+        color: white;
+
+        /* Element Styles */
+        background-color: blue;
+        /* Animation */
+    }

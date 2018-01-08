@@ -19,8 +19,16 @@
 </head>
 <body class="bodyClass">
 
-    <div class="headerClass flexClass debugDimenTwoClass">Header Section</div>
-    <div class="sectionClass flexClass debugDimenThreeClass">Section</div>
+    <div class="headerClass flexClass debugDimenTwoClass">
+
+        <div>HomeIcon</div>
+        <div>SearchIcon</div>
+    </div>
+    <div class="sectionClass flexClass debugDimenThreeClass">
+
+        <div class="signUpDivButtonClass">Sign Up</div>
+        <div class="signInDivButtonClass">Sign In</div>
+    </div>
     <div class="footerClass flexClass debugDimenFourClass">Footer Section</div>
 </body>
 </html>
