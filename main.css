@@ -1,0 +1,75 @@
+.bodyClass {
+
+    /* Display Layer */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
+    margin: 0px 0px; !important;
+    padding: 0px 0px; !important;
+    min-height: 99vh;
+
+    /* Text Styles */
+    /* Element Styles */
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* Animation */
+}
+
+.flexClass {
+
+    /* Display Layer */
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
+    width: 99vw;
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.debugDimenOneClass {
+
+    border: 5px solid red;
+}
+
+.debugDimenTwoClass {
+
+    border: 5px solid blue;
+}
+
+.debugDimenThreeClass {
+
+    border: 5px solid gold;
+}
+
+.debugDimenFourClass {
+
+    border: 5px solid purple;
+}
+
+.debugDimenFiveClass {
+
+    border: 5px solid greenyellow;
+}
+
+.sectionClass {
+
+    /* Display Layer */
+    display: flex;
+    flex: 8 1;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
