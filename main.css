@@ -256,6 +256,8 @@
     /* Dimensions */
     width: 99vw;
     min-height: 20vh;
+    padding-top: 5px;
+    padding-bottom: 10px;
 
     /* Text Styles */
     /* Element Styles */
@@ -303,7 +305,7 @@
         flex: 1 1;
 
         /* Dimensions */
-        height: 55vh;
+        height: 75vh;
 
         /* Text Styles */
         /* Element Styles */
