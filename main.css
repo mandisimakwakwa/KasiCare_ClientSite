@@ -221,6 +221,21 @@
     /* Animation */
 }
 
+.panelTabDivClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+
+    /* Dimensions */
+    width: 100%;
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
 .debugDimenOneClass {
 
     border: 5px solid red;
@@ -302,10 +317,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex: 1 1;
+        flex-flow: column;
+        flex: 1;
 
         /* Dimensions */
         height: 75vh;
+        padding: 0px;
+        margin: 0px;
 
         /* Text Styles */
         /* Element Styles */

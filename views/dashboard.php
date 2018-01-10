@@ -41,7 +41,20 @@
         </div>
         <div class="sectionClass flexOneOneClass">
 
-            <div class="panelDivClass borderRightCrimsonDivLine">Panel</div>
+            <div class="panelDivClass borderRightCrimsonDivLine">
+
+                <div class="panelTabDivClass debugDimenOneClass">
+
+                    <div class="flexOneOneClass debugDimenThreeClass"></div>
+                    <div class="flexOneOneClass debugDimenFourClass"></div>
+                </div>
+                <div class="panelTabDivClass debugDimenOneClass"></div>
+                <div class="panelTabDivClass debugDimenOneClass"></div>
+                <div class="panelTabDivClass debugDimenOneClass"></div>
+                <div class="panelTabDivClass debugDimenOneClass"></div>
+                <div class="panelTabDivClass debugDimenOneClass"></div>
+                <div class="panelTabDivClass debugDimenOneClass"></div>
+            </div>
             <div class="sectionDivClass">Section</div>
         </div>
     </body>
