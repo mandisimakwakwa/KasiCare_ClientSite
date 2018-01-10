@@ -59,7 +59,12 @@
                 <div class="panelTabDivClass debugDimenOneClass"></div>
                 <div class="panelTabDivClass debugDimenOneClass"></div>
             </div>
-            <div class="sectionDivClass">Section</div>
+            <div class="sectionDivClass debugDimenTwoClass">
+
+                <div class="widthAdjFull flexOneOneClass debugDimenThreeClass">SecOne</div>
+                <div class="widthAdjFull flexOneOneClass debugDimenTwoClass">SecTwo</div>
+                <div class="widthAdjFull flexOneOneClass debugDimenFiveClass">SecThree</div>
+            </div>
         </div>
     </body>
 </html>
