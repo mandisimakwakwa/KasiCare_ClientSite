@@ -20,7 +20,7 @@
 
     /* Text Styles */
     /* Element Styles */
-    background-color: aqua;
+    background-color: #c8c6c7;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,18 +29,195 @@
     /* Animation */
 }
 
-.flexClass {
+.flexOneOneClass {
 
     /* Display Layer */
     display: flex;
-    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.headerSignOutButtonClass {
+
+    /* Display Layer */
+    display: flex;
     justify-content: center;
     align-items: center;
 
     /* Dimensions */
-    width: 99vw;
+    width: 10vw;
+    height: 5vh;
+    margin: 5px;
+
+    /* Text Styles */
+    text-transform: none;
+    color: white;
+
+    /* Element Styles */
+    background-color: #a4959e;
+    border: none;
+    border-radius: 5px;
+    /* Animation */
+}
+
+.lightButtonOneClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
+    width: 15vw;
+    height: 7vh;
+    margin: 15px;
+
+    /* Text Styles */
+    text-transform: none;
+    color: white;
+
+    /* Element Styles */
+    background-color: #110a0c;
+    border: none;
+    border-radius: 5px;
+    /* Animation */
+}
+
+.darkButtonTwoClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
+    width: 15vw;
+    height: 7vh;
+    margin: 15px;
+
+    /* Text Styles */
+    text-transform: none;
+    color: white;
+
+    /* Element Styles */
+    background-color: #a4959e;
+    border: none;
+    border-radius: 5px;
+    /* Animation */
+}
+
+.fillerClass {
+
+    /* Display Layer */
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
     /* Text Styles */
     /* Element Styles */
+    /* Animation */
+}
+
+.alignTopClass {
+
+    /* Display Layer */
+    display: flex;
+    align-self: flex-start;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.alignCenterClass {
+
+    /* Display Layer */
+    display: flex;
+    align-self: center;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.alignBottomClass {
+
+    /* Display Layer */
+    display: flex;
+    align-self: flex-end;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.alignLeftClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.alignRightClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.borderBottomCrimsonDivLine {
+
+    /* Display Layer */
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    border-bottom: 2px solid #d60949;
+
+    /* Animation */
+}
+
+.borderLeftCrimsonDivLine {
+
+    /* Display Layer */
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    border-left: 2px solid #d60949;
+
+    /* Animation */
+}
+
+.borderRightCrimsonDivLine {
+
+    /* Display Layer */
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    border-right: 2px solid #d60949;
+
     /* Animation */
 }
 
@@ -69,56 +246,100 @@
     border: 5px solid greenyellow;
 }
 
-.sectionClass {
+.headerClass {
 
     /* Display Layer */
     display: flex;
-    flex: 8 1;
+    justify-content: center;
+    align-items: center;
 
     /* Dimensions */
+    width: 99vw;
+    min-height: 20vh;
+
     /* Text Styles */
     /* Element Styles */
     /* Animation */
 }
 
-    .signUpDivButtonClass {
+    .headerImageClass {
+
+        /* Display Layer */
+        /* Dimensions */
+        height: 20vh;
+        width: 20vh;
+
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
+
+
+
+.sectionClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 8 1;
+
+    /* Dimensions */
+    width: 99vw;
+    padding: 0px;
+    margin: 0px;
+
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+    .panelDivClass {
 
         /* Display Layer */
         display: flex;
         justify-content: center;
         align-items: center;
+        flex: 1 1;
 
         /* Dimensions */
-        width: 15vw;
-        height: 7vh;
-        margin: 15px;
+        height: 55vh;
 
         /* Text Styles */
-        text-transform: none;
-        color: white;
-
         /* Element Styles */
-        background-color: blue;
         /* Animation */
     }
 
-    .signInDivButtonClass {
+    .sectionDivClass {
 
         /* Display Layer */
         display: flex;
         justify-content: center;
         align-items: center;
+        flex: 1 1;
 
         /* Dimensions */
-        width: 15vw;
-        height: 7vh;
-        margin: 15px;
+        min-width: 70vw;
+        height: 55vh;
 
         /* Text Styles */
-        text-transform: none;
-        color: white;
-
         /* Element Styles */
-        background-color: blue;
         /* Animation */
     }
+
+.footerClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
+    width: 99vw;
+    min-height: 20vh;
+
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+

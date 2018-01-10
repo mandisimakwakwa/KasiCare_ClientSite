@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
+    <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    >
-    <meta http-equiv="X-UA-Compatible"
-          content="ie=edge"
-    >
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        >
+        <meta http-equiv="X-UA-Compatible"
+              content="ie=edge"
+        >
 
 
-    <link rel="stylesheet"
-          href="../main.css"
-    >
+        <link rel="stylesheet"
+              href="../main.css"
+        >
 
-    <title>Dashboard</title>
-</head>
-<body class="bodyClass">
+        <title>Dashboard</title>
+    </head>
+    <body class="bodyClass">
 
-<div class="headerClass flexClass">
+        <div class="headerClass flexOneOneClass borderBottomCrimsonDivLine">
 
-    Logo
-</div>
-<div class="sectionClass flexClass">
+            <div class="flexOneOneClass alignTopClass alignLeftClass">
 
-    <div class="signUpDivButtonClass">Sign Up</div>
-    <div class="signInDivButtonClass">Sign In</div>
-</div>
-<div class="footerClass flexClass">Footer Section</div>
-</body>
+                <img src="../resources/images/qr_example.png"
+                     class="headerImageClass"
+                />
+            </div>
+            <div class="flexOneOneClass">
+
+                <img src="../resources/images/kasiCarelog.png"
+                     class="headerImageClass"
+                />
+            </div>
+            <div class="flexOneOneClass alignTopClass alignRightClass">
+
+                <div class="headerSignOutButtonClass">Sign Out</div>
+            </div>
+        </div>
+        <div class="sectionClass flexOneOneClass">
+
+            <div class="panelDivClass borderRightCrimsonDivLine">Panel</div>
+            <div class="sectionDivClass">Section</div>
+        </div>
+    </body>
 </html>

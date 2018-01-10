@@ -20,15 +20,17 @@
     </head>
     <body class="bodyClass">
 
-        <div class="headerClass flexClass">
+        <div class="headerClass flexOneOneClass">
 
-            Logo
+            <img src="../resources/images/kasiCarelog.png"
+                 class="headerImageClass"
+            />
         </div>
-        <div class="sectionClass flexClass">
+        <div class="sectionClass flexOneOneClass">
 
-            <div class="signUpDivButtonClass">Sign Up</div>
-            <div class="signInDivButtonClass">Sign In</div>
+            <div class="lightButtonOneClass">Sign Up</div>
+            <div class="darkButtonTwoClass">Sign In</div>
         </div>
-        <div class="footerClass flexClass">Footer Section</div>
+        <div class="footerClass flexOneOneClass"></div>
     </body>
 </html>
