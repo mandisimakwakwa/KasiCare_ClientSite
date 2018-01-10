@@ -398,6 +398,21 @@
         /* Animation */
     }
 
+        .sectionMainDivClass {
+
+            /* Display Layer */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+            flex: 8 1;
+
+            /* Dimensions */
+            /* Text Styles */
+            /* Element Styles */
+            /* Animation */
+        }
+
 .footerClass {
 
     /* Display Layer */

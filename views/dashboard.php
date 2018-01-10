@@ -62,7 +62,7 @@
             <div class="sectionDivClass debugDimenTwoClass">
 
                 <div class="widthAdjFull flexOneOneClass debugDimenThreeClass">SecOne</div>
-                <div class="widthAdjFull flexOneOneClass debugDimenTwoClass">SecTwo</div>
+                <div class="sectionMainDivClass widthAdjFull flexOneOneClass debugDimenTwoClass">SecTwo</div>
                 <div class="widthAdjFull flexOneOneClass debugDimenFiveClass">SecThree</div>
             </div>
         </div>
