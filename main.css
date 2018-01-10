@@ -330,6 +330,51 @@
         /* Animation */
     }
 
+        .propicPanelDivClass {
+
+            /* Display Layer */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* Dimensions */
+            height: 100%;
+            /* Text Styles */
+            /* Element Styles */
+            /* Animation */
+        }
+
+        .propicInfoPanelDivClass {
+
+            /* Display Layer */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+            flex: 4 1;
+
+            /* Dimensions */
+            height: 100%;
+            /* Text Styles */
+            /* Element Styles */
+            /* Animation */
+        }
+
+            .panelLoacationDivClass {
+
+                /* Display Layer */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column;
+
+                /* Dimensions */
+                width: 100%;
+                /* Text Styles */
+                /* Element Styles */
+                /* Animation */
+            }
+
     .sectionDivClass {
 
         /* Display Layer */

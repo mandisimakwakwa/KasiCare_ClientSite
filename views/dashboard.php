@@ -43,10 +43,14 @@
 
             <div class="panelDivClass borderRightCrimsonDivLine">
 
-                <div class="panelTabDivClass debugDimenOneClass">
+                <div class="panelTabDivClass borderBottomCrimsonDivLine debugDimenOneClass">
 
-                    <div class="flexOneOneClass debugDimenThreeClass"></div>
-                    <div class="flexOneOneClass debugDimenFourClass"></div>
+                    <div class="propicPanelDivClass flexOneOneClass debugDimenThreeClass"></div>
+                    <div class="propicInfoPanelDivClass flexOneOneClass debugDimenFourClass">
+
+                        <div class="panelLoacationDivClass flexOneOneClass debugDimenFiveClass">1</div>
+                        <div class="panelLoacationDivClass flexOneOneClass debugDimenFiveClass">2</div>
+                    </div>
                 </div>
                 <div class="panelTabDivClass debugDimenOneClass"></div>
                 <div class="panelTabDivClass debugDimenOneClass"></div>
