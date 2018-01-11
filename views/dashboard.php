@@ -11,6 +11,9 @@
               content="ie=edge"
         >
 
+        <link rel="stylesheet"
+              href="../resources/libs/font_awesome/css/font-awesome.css"
+        >
 
         <link rel="stylesheet"
               href="../main.css"
@@ -41,29 +44,44 @@
         </div>
         <div class="sectionClass flexOneOneClass">
 
-            <div class="panelDivClass borderRightCrimsonDivLine">
+            <div class="panelDivClass">
 
-                <div class="panelTabDivClass borderBottomCrimsonDivLine debugDimenOneClass">
+                <div class="panelTabDivClass borderBottomCrimsonDivLine">
 
-                    <div class="propicPanelDivClass flexOneOneClass debugDimenThreeClass"></div>
-                    <div class="propicInfoPanelDivClass flexOneOneClass debugDimenFourClass">
+                    <a href="#"
+                       class="propicDivClass flexOneOneClass textDecoNoneClass"
+                    >
 
-                        <div class="panelLoacationDivClass flexOneOneClass debugDimenFiveClass">1</div>
-                        <div class="panelLoacationDivClass flexOneOneClass debugDimenFiveClass">2</div>
+                        <i class="fa fa-image fa-4x"></i>
+                    </a>
+                    <div class="propicInfoPanelDivClass flexOneOneClass">
+
+                        <a href="#"
+                           class="panelPracticeDivClass flexOneOneClass textDecoNoneClass cursorPointerToggleClass">
+
+                            <i class="fa fa-home fa-lg flexOneOneClass"></i>
+                            <div class="flexOneOneClass alignLeftClass">Practice</div>
+                        </a>
+                        <a href="#"
+                           class="panelLocationDivClass flexOneOneClass textDecoNoneClass cursorPointerToggleClass">
+
+                            <i class="fa fa-map-marker fa-lg flexOneOneClass"></i>
+                            <div class="flexOneOneClass alignLeftClass">Location</div>
+                        </a>
                     </div>
                 </div>
-                <div class="panelTabDivClass debugDimenOneClass"></div>
-                <div class="panelTabDivClass debugDimenOneClass"></div>
-                <div class="panelTabDivClass debugDimenOneClass"></div>
-                <div class="panelTabDivClass debugDimenOneClass"></div>
-                <div class="panelTabDivClass debugDimenOneClass"></div>
-                <div class="panelTabDivClass debugDimenOneClass"></div>
+                <div class="panelTabDivClass"></div>
+                <div class="panelTabDivClass"></div>
+                <div class="panelTabDivClass"></div>
+                <div class="panelTabDivClass"></div>
+                <div class="panelTabDivClass"></div>
+                <div class="panelTabDivClass"></div>
             </div>
-            <div class="sectionDivClass debugDimenTwoClass">
+            <div class="sectionDivClass">
 
-                <div class="widthAdjFull flexOneOneClass debugDimenThreeClass">SecOne</div>
-                <div class="sectionMainDivClass widthAdjFull flexOneOneClass debugDimenTwoClass">SecTwo</div>
-                <div class="widthAdjFull flexOneOneClass debugDimenFiveClass">SecThree</div>
+                <div class="widthAdjFullClass flexOneOneClass">SecOne</div>
+                <div class="sectionMainDivClass widthAdjFullClass flexOneOneClass">SecTwo</div>
+                <div class="widthAdjFullClass flexOneOneClass">SecThree</div>
             </div>
         </div>
     </body>

@@ -236,9 +236,20 @@
     /* Animation */
 }
 
-.widthAdjFull {
+.widthAdjFullClass {
 
     width: 100%;
+}
+
+.textDecoNoneClass {
+
+    text-decoration: none;
+    color: #c8c6c7;
+}
+
+.cursorPointerToggleClass {
+
+    cursor: pointer;
 }
 
 .debugDimenOneClass {
@@ -281,6 +292,7 @@
 
     /* Text Styles */
     /* Element Styles */
+    background-color: #d60949;
     /* Animation */
 }
 
@@ -326,12 +338,17 @@
         flex: 1;
 
         /* Dimensions */
-        height: 75vh;
+        height: 77vh;
         padding: 0px;
         margin: 0px;
 
         /* Text Styles */
+        color: #c8c6c7;
+        font-weight: bolder;
+
         /* Element Styles */
+        background-color: #110a0c;
+
         /* Animation */
     }
 
@@ -349,6 +366,26 @@
             /* Animation */
         }
 
+            .propicDivClass {
+
+                /* Display Layer */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                /* Dimensions */
+                height: 12vh;
+                width: 10vw;
+                /* Text Styles */
+                /* Element Styles */
+                /* Animation */
+            }
+
+            .propicDivClass:hover {
+
+                background-color: rgba(214, 9, 73, 0.51);
+            }
+
         .propicInfoPanelDivClass {
 
             /* Display Layer */
@@ -365,19 +402,46 @@
             /* Animation */
         }
 
-            .panelLoacationDivClass {
+            .panelPracticeDivClass {
 
                 /* Display Layer */
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                flex-flow: column;
+                flex-flow: row;
 
                 /* Dimensions */
                 width: 100%;
+
                 /* Text Styles */
                 /* Element Styles */
                 /* Animation */
+            }
+
+            .panelPracticeDivClass:hover {
+
+                background-color: rgba(214, 9, 73, 0.51);
+            }
+
+            .panelLocationDivClass {
+
+                /* Display Layer */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: row;
+
+                /* Dimensions */
+                width: 100%;
+
+                /* Text Styles */
+                /* Element Styles */
+                /* Animation */
+            }
+
+            .panelLocationDivClass:hover {
+
+                background-color: rgba(214, 9, 73, 0.51);
             }
 
     .sectionDivClass {
