@@ -46,7 +46,7 @@
 
             <div class="panelDivClass">
 
-                <div class="panelTabDivClass borderBottomCrimsonDivLine">
+                <div class="widthAdjFullClass flexFlowRowClass flexOneOneClass borderBottomCrimsonDivLine">
 
                     <a href="#"
                        class="propicDivClass flexOneOneClass textDecoNoneClass"
@@ -77,33 +77,47 @@
                 </a>
                 <a class="panelTabDivClass">
 
-                    <i class="fa fa-dashboard flexOneOneClass"></i>
-                    <div class="flexOneOneClass alignLeftClass">My Dashboard</div>
+                    <i class="fa fa-user flexOneOneClass"></i>
+                    <div class="flexOneOneClass alignLeftClass">Profile</div>
                 </a>
                 <a class="panelTabDivClass">
 
-                    <i class="fa fa-dashboard flexOneOneClass"></i>
-                    <div class="flexOneOneClass alignLeftClass">My Dashboard</div>
+                    <i class="fa fa-money flexOneOneClass"></i>
+                    <div class="flexOneOneClass alignLeftClass">Consultation Fees</div>
                 </a>
                 <a class="panelTabDivClass">
 
-                    <i class="fa fa-dashboard flexOneOneClass"></i>
-                    <div class="flexOneOneClass alignLeftClass">My Dashboard</div>
+                    <i class="fa fa-cog flexOneOneClass"></i>
+                    <div class="flexOneOneClass alignLeftClass">Settings</div>
                 </a>
-                <a class="panelTabDivClass">
+                <a class="panelTabDivClass borderBottomCrimsonDivLine">
 
-                    <i class="fa fa-dashboard flexOneOneClass"></i>
-                    <div class="flexOneOneClass alignLeftClass">My Dashboard</div>
+                    <i class="fa fa-pie-chart flexOneOneClass"></i>
+                    <div class="flexOneOneClass alignLeftClass">Statistics</div>
                 </a>
-                <a class="panelTabDivClass">
-
-                </a>
+                <div class="flexOneOneClass">Powered By: Social Tech</div>
             </div>
             <div class="sectionDivClass">
 
-                <div class="widthAdjFullClass flexOneOneClass">SecOne</div>
-                <div class="sectionMainDivClass widthAdjFullClass flexOneOneClass">SecTwo</div>
-                <div class="widthAdjFullClass flexOneOneClass">SecThree</div>
+                <div class="paddBottomSmallClass widthAdjFullClass flexFlowColClass flexOneOneClass borderBottomCrimsonDivLine">
+
+                    <div class="ratingSectionDivClass flexOneOneClass alignRightClass">Rating: 3.5/5</div>
+                    <div class="dashboardSectionDivClass flexOneOneClass">My Dashboard</div>
+                </div>
+                <div class="sectionMainDivClass widthAdjFullClass flexOneOneClass borderBottomCrimsonDivLine">
+
+                    <div class="sectionMainRowOneDivClass widthAdjFullClass flexOneOneClass">
+
+                        <div class="cardClass">1</div>
+                        <div class="cardClass">2</div>
+                    </div>
+                    <div class="sectionMainRowTwoDivClass widthAdjFullClass flexOneOneClass">
+
+                        <div class="cardClass">3</div>
+                        <div class="cardClass">4</div>
+                    </div>
+                </div>
+                <div class="tooltipSectionClass widthAdjFullClass flexOneOneClass">"Type Tooltip Here..."</div>
             </div>
         </div>
     </body>

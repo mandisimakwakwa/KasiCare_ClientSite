@@ -252,6 +252,46 @@
     cursor: pointer;
 }
 
+.flexFlowColClass {
+
+    display: flex;
+    flex-flow: column;
+}
+.flexFlowRowClass {
+
+    display: flex;
+    flex-flow: row;
+}
+
+.paddBottomSmallClass {
+
+    padding-bottom: 5px;
+}
+
+.cardClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
+    width: 10vw;
+    height: 20vh;
+    margin: 10px;
+
+    /* Text Styles */
+    /* Element Styles */
+    background-color: rgba(17, 10, 12, 0.55);
+
+    /* Animation */
+}
+
+    .cardClass:hover {
+
+        background-color: rgba(214, 9, 73, 0.51);
+    }
+
 .debugDimenOneClass {
 
     border: 5px solid red;
@@ -444,6 +484,11 @@
                 background-color: rgba(214, 9, 73, 0.51);
             }
 
+            .panelTabDivClass:hover {
+
+                background-color: rgba(214, 9, 73, 0.51);
+            }
+
     .sectionDivClass {
 
         /* Display Layer */
@@ -462,6 +507,35 @@
         /* Animation */
     }
 
+            .ratingSectionDivClass {
+
+                /* Display Layer */
+                display: flex;
+                align-self: flex-end;
+
+                /* Dimensions */
+                padding-right: 5px;
+
+                /* Text Styles */
+                font-size: smaller;
+
+                /* Element Styles */
+                /* Animation */
+            }
+            .dashboardSectionDivClass {
+
+                /* Display Layer */
+                display: flex;
+
+                /* Dimensions */
+                /* Text Styles */
+                font-weight: 950;
+                font-size: 6vh;
+
+                /* Element Styles */
+                /* Animation */
+            }
+
         .sectionMainDivClass {
 
             /* Display Layer */
@@ -469,9 +543,52 @@
             justify-content: center;
             align-items: center;
             flex-flow: column;
-            flex: 8 1;
+            flex: 6 1;
 
             /* Dimensions */
+            /* Text Styles */
+            /* Element Styles */
+            /* Animation */
+        }
+
+            .sectionMainRowOneDivClass {
+
+                /* Display Layer */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: row;
+
+                /* Dimensions */
+                /* Text Styles */
+                /* Element Styles */
+                /* Animation */
+            }
+
+            .sectionMainRowTwoDivClass {
+
+                /* Display Layer */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: row;
+
+                /* Dimensions */
+                /* Text Styles */
+                /* Element Styles */
+                /* Animation */
+            }
+
+        .tooltipSectionClass {
+
+            /* Display Layer */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* Dimensions */
+            padding-top: 4px;
+
             /* Text Styles */
             /* Element Styles */
             /* Animation */
