@@ -263,6 +263,16 @@
     flex-flow: row;
 }
 
+.paddSmallClass {
+
+    padding: 5px;
+}
+
+.paddMediumClass {
+
+    padding: 10px;
+}
+
 .paddBottomSmallClass {
 
     padding-bottom: 5px;
@@ -286,6 +296,34 @@
 
     /* Animation */
 }
+
+    .cardRowOneClass {
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 3 1;
+
+        /* Dimensions */
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
+
+    .cardRowTwoClass {
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1;
+
+        /* Dimensions */
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
 
     .cardClass:hover {
 

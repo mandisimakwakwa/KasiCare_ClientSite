@@ -108,13 +108,53 @@
 
                     <div class="sectionMainRowOneDivClass widthAdjFullClass flexOneOneClass">
 
-                        <div class="cardClass">1</div>
-                        <div class="cardClass">2</div>
+                        <a href="#"
+                           class="cardClass flexFlowColClass textDecoNoneClass cursorPointerToggleClass"
+                        >
+
+                            <div class="cardRowOneClass">
+
+                                <i class="fa fa-user-circle fa-3x flexOneOneClass paddMediumClass"></i>
+                                <div class="flexOneOneClass paddMediumClass">35</div>
+                            </div>
+                            <div class="cardRowTwoClass">Patients</div>
+                        </a>
+                        <a href="#"
+                           class="cardClass flexFlowColClass textDecoNoneClass cursorPointerToggleClass"
+                        >
+
+                            <div class="cardRowOneClass">
+
+                                <i class="fa fa-envelope fa-3x flexOneOneClass paddMediumClass"></i>
+                                <div class="flexOneOneClass paddMediumClass">26</div>
+                            </div>
+                            <div class="cardRowTwoClass">Email</div>
+                        </a>
                     </div>
                     <div class="sectionMainRowTwoDivClass widthAdjFullClass flexOneOneClass">
 
-                        <div class="cardClass">3</div>
-                        <div class="cardClass">4</div>
+                        <a href="#"
+                           class="cardClass flexFlowColClass textDecoNoneClass cursorPointerToggleClass"
+                        >
+
+                            <div class="cardRowOneClass">
+
+                                <i class="fa fa-bell fa-3x flexOneOneClass paddMediumClass"></i>
+                                <div class="flexOneOneClass paddMediumClass">213</div>
+                            </div>
+                            <div class="cardRowTwoClass">Notifications</div>
+                        </a>
+                        <a href="#"
+                           class="cardClass flexFlowColClass textDecoNoneClass cursorPointerToggleClass"
+                        >
+
+                            <div class="cardRowOneClass">
+
+                                <i class="fa fa-address-book fa-3x flexOneOneClass paddMediumClass"></i>
+                                <div class="flexOneOneClass paddMediumClass">38</div>
+                            </div>
+                            <div class="cardRowTwoClass">Appointments</div>
+                        </a>
                     </div>
                 </div>
                 <div class="tooltipSectionClass widthAdjFullClass flexOneOneClass">"Type Tooltip Here..."</div>
