@@ -13,7 +13,7 @@
 
 
         <link rel="stylesheet"
-              href="../main.css"
+              href="../../css/main.css"
         >
 
         <title>KasiCare</title>
@@ -22,7 +22,7 @@
 
         <div class="headerClass flexOneOneClass">
 
-            <img src="../resources/images/kasiCarelog.png"
+            <img src="../../../resources/images/kasiCarelog.png"
                  class="headerImageClass"
             />
         </div>

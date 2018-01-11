@@ -12,11 +12,11 @@
         >
 
         <link rel="stylesheet"
-              href="../resources/libs/font_awesome/css/font-awesome.css"
+              href="../../../resources/libs/font_awesome/css/font-awesome.css"
         >
 
         <link rel="stylesheet"
-              href="../main.css"
+              href="../../css/main.css"
         >
 
         <title>Dashboard</title>
@@ -27,13 +27,13 @@
 
             <div class="flexOneOneClass alignTopClass alignLeftClass">
 
-                <img src="../resources/images/qr_example.png"
+                <img src="../../../resources/images/qr_example.png"
                      class="headerImageClass"
                 />
             </div>
             <div class="flexOneOneClass">
 
-                <img src="../resources/images/kasiCarelog.png"
+                <img src="../../../resources/images/kasiCarelog.png"
                      class="headerImageClass"
                 />
             </div>
@@ -70,12 +70,34 @@
                         </a>
                     </div>
                 </div>
-                <div class="panelTabDivClass"></div>
-                <div class="panelTabDivClass"></div>
-                <div class="panelTabDivClass"></div>
-                <div class="panelTabDivClass"></div>
-                <div class="panelTabDivClass"></div>
-                <div class="panelTabDivClass"></div>
+                <a class="panelTabDivClass">
+
+                    <i class="fa fa-dashboard flexOneOneClass"></i>
+                    <div class="flexOneOneClass alignLeftClass">My Dashboard</div>
+                </a>
+                <a class="panelTabDivClass">
+
+                    <i class="fa fa-dashboard flexOneOneClass"></i>
+                    <div class="flexOneOneClass alignLeftClass">My Dashboard</div>
+                </a>
+                <a class="panelTabDivClass">
+
+                    <i class="fa fa-dashboard flexOneOneClass"></i>
+                    <div class="flexOneOneClass alignLeftClass">My Dashboard</div>
+                </a>
+                <a class="panelTabDivClass">
+
+                    <i class="fa fa-dashboard flexOneOneClass"></i>
+                    <div class="flexOneOneClass alignLeftClass">My Dashboard</div>
+                </a>
+                <a class="panelTabDivClass">
+
+                    <i class="fa fa-dashboard flexOneOneClass"></i>
+                    <div class="flexOneOneClass alignLeftClass">My Dashboard</div>
+                </a>
+                <a class="panelTabDivClass">
+
+                </a>
             </div>
             <div class="sectionDivClass">
 
