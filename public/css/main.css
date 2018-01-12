@@ -617,6 +617,23 @@
                 /* Animation */
             }
 
+                .profileInfoDivClass {
+
+                    /* Display Layer */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-flow: column;
+                    flex: 5 1;
+
+                    /* Dimensions */
+                    height: 100%;
+
+                    /* Text Styles */
+                    /* Element Styles */
+                    /* Animation */
+                }
+
         .tooltipSectionClass {
 
             /* Display Layer */
