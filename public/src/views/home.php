@@ -11,7 +11,6 @@
               content="ie=edge"
         >
 
-
         <link rel="stylesheet"
               href="../../../resources/libs/font_awesome/css/font-awesome.css"
         >
@@ -32,7 +31,6 @@
               href="../../css/defaultCustom_styles.css"
         >
 
-
         <link rel="stylesheet"
               href="../../css/debug.css"
         >
@@ -42,16 +40,12 @@
     <body class="">
 
         <div class="">
-
-            <img src="../../../resources/images/misc/kasicare.png"
-                 class=""
-            />
         </div>
         <div class="">
-
-            <div class="">Sign Up</div>
-            <div class="">Sign In</div>
         </div>
-        <div class=""></div>
+        <div class="">
+        </div>
+        <div class="">
+        </div>
     </body>
 </html>

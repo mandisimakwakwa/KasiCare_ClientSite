@@ -1,39 +1,86 @@
-.debugBorder_redClass{
-    border: 2px solid red;
-}
+/*Debug Border*/
 
-.debugBorder_blueClass{
-    border: 2px solid blue;
-}
+    .debugBorder_redClass{
+        border: 2px solid red;
+    }
 
-.debugBorder_greenClass{
-    border: 2px solid green;
-}
+    .debugBorder_blueClass{
+        border: 2px solid blue;
+    }
 
-.debugBorder_yellowClass{
-    border: 2px solid yellow;
-}
+    .debugBorder_greenClass{
+        border: 2px solid green;
+    }
 
-.debugBorder_pinkClass{
-    border: 2px solid deeppink;
-}
+    .debugBorder_yellowClass{
+        border: 2px solid yellow;
+    }
 
-.debugBorder_orangeClass{
-    border: 2px solid orange;
-}
+    .debugBorder_pinkClass{
+        border: 2px solid deeppink;
+    }
 
-.debugBorder_purpleClass{
-    border: 2px solid purple;
-}
+    .debugBorder_orangeClass{
+        border: 2px solid orange;
+    }
 
-.debugBorder_silverClass{
-    border: 2px solid silver;
-}
+    .debugBorder_purpleClass{
+        border: 2px solid purple;
+    }
 
-.debugBorder_blackClass{
-    border: 2px solid black;
-}
+    .debugBorder_silverClass{
+        border: 2px solid silver;
+    }
 
-.debugBorder_whiteClass{
-    border: 2px solid white;
-}
+    .debugBorder_blackClass{
+        border: 2px solid black;
+    }
+
+    .debugBorder_whiteClass{
+        border: 2px solid white;
+    }
+
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+
+/*Debug Background*/
+
+    .debugBackground_redClass{
+        background: red;
+    }
+
+    .debugBackground_blueClass{
+        background: blue;
+    }
+
+    .debugBackground_greenClass{
+        background: green;
+    }
+
+    .debugBackground_yellowClass{
+        background: yellow;
+    }
+
+    .debugBackground_pinkClass{
+        background: deeppink;
+    }
+
+    .debugBackground_orangeClass{
+        background: orange;
+    }
+
+    .debugBackground_purpleClass{
+        background: purple;
+    }
+
+    .debugBackground_silverClass{
+        background: silver;
+    }
+
+    .debugBackground_blackClass{
+        background: black;
+    }
+
+    .debugBackground_whiteClass{
+        background: white;
+    }
