@@ -16,7 +16,24 @@
     >
 
     <link rel="stylesheet"
+          href="../../../resources/libs/boilerplate/boilerplate.css"
+    >
+
+    <link rel="stylesheet"
+          href="../../../resources/libs/boilerplate/normalize.css"
+    >
+
+    <link rel="stylesheet"
           href="../../css/main.css"
+    >
+
+    <link rel="stylesheet"
+          href="../../css/defaultCustom_styles.css"
+    >
+
+
+    <link rel="stylesheet"
+          href="../../css/debug.css"
     >
 
     <title>Profile</title>
@@ -27,13 +44,13 @@
 
     <div class="flexOneOneClass alignTopClass alignLeftClass">
 
-        <img src="../../../resources/images/qr_example.png"
+        <img src="../../../resources/images/misc/qr_example.png"
              class="headerImageClass"
         />
     </div>
     <div class="flexOneOneClass">
 
-        <img src="../../../resources/images/kasiCarelog.png"
+        <img src="../../../resources/images/misc/kasicare.png"
              class="headerImageClass"
         />
     </div>
@@ -109,10 +126,21 @@
                 <i class="fa fa-info fa-5x flexOneOneClass borderRightCrimsonDivLine"></i>
                 <div class="profileInfoDivClass flexOneOneClass"></div>
             </div>
-            <div class="flexOneOneClass widthAdjFullClass">
+            <div class="mapSectionDivClass flexOneOneClass widthAdjFullClass">
 
                 <i class="fa fa-map fa-5x flexOneOneClass borderRightCrimsonDivLine"></i>
-                <div class="profileInfoDivClass flexOneOneClass"></div>
+                <div class="profileInfoDivClass flexOneOneClass">
+
+                    <div class="flexOneOneClass alignTopClass paddSmallClass heightAdjFullClass">
+
+                        <div class="titleTabProfileClass paddSmallClass">Map</div>
+                        <img src=""
+                        />
+                    </div>
+                    <div class="flexOneOneClass alignTopClass paddSmallClass heightAdjFullClass">
+                        <div class="titleTabProfileClass paddSmallClass">Office Hours</div>
+                    </div>
+                </div>
             </div>
             <div class="flexOneOneClass widthAdjFullClass">
 

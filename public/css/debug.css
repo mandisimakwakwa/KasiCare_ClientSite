@@ -1,0 +1,39 @@
+.debugBorder_redClass{
+    border: 2px solid red;
+}
+
+.debugBorder_blueClass{
+    border: 2px solid blue;
+}
+
+.debugBorder_greenClass{
+    border: 2px solid green;
+}
+
+.debugBorder_yellowClass{
+    border: 2px solid yellow;
+}
+
+.debugBorder_pinkClass{
+    border: 2px solid deeppink;
+}
+
+.debugBorder_orangeClass{
+    border: 2px solid orange;
+}
+
+.debugBorder_purpleClass{
+    border: 2px solid purple;
+}
+
+.debugBorder_silverClass{
+    border: 2px solid silver;
+}
+
+.debugBorder_blackClass{
+    border: 2px solid black;
+}
+
+.debugBorder_whiteClass{
+    border: 2px solid white;
+}

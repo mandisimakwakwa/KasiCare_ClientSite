@@ -1,0 +1,358 @@
+/* Display Layer */
+/* Dimensions */
+/* Text Styles */
+/* Element Styles */
+/* Animation */
+
+/*
+    //==========================\\
+    ||      Default Styling     ||
+    \\==========================//
+*/
+/*====================================================================================================================*/
+/*
+    //==========================\\
+    ||      Body Styling        ||
+    \\==========================//
+*/
+/*====================================================================================================================*/
+/*
+    //==========================\\
+    ||      Extra Styling      ||
+    \\==========================//
+*/
+/*====================================================================================================================*/
+
+
+.flexOneOneClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.headerSignOutButtonClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
+    width: 10vw;
+    height: 5vh;
+    margin: 5px;
+
+    /* Text Styles */
+    text-transform: none;
+    color: white;
+
+    /* Element Styles */
+    background-color: #a4959e;
+    border: none;
+    border-radius: 5px;
+    /* Animation */
+}
+
+.lightButtonOneClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
+    width: 15vw;
+    height: 7vh;
+    margin: 15px;
+
+    /* Text Styles */
+    text-transform: none;
+    color: white;
+
+    /* Element Styles */
+    background-color: #110a0c;
+    border: none;
+    border-radius: 5px;
+    /* Animation */
+}
+
+.darkButtonTwoClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
+    width: 15vw;
+    height: 7vh;
+    margin: 15px;
+
+    /* Text Styles */
+    text-transform: none;
+    color: white;
+
+    /* Element Styles */
+    background-color: #a4959e;
+    border: none;
+    border-radius: 5px;
+    /* Animation */
+}
+
+.fillerClass {
+
+    /* Display Layer */
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.alignTopClass {
+
+    /* Display Layer */
+    display: flex;
+    align-self: flex-start;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.alignCenterClass {
+
+    /* Display Layer */
+    display: flex;
+    align-self: center;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.alignBottomClass {
+
+    /* Display Layer */
+    display: flex;
+    align-self: flex-end;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.alignLeftClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.alignRightClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.borderBottomCrimsonDivLine {
+
+    /* Display Layer */
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    border-bottom: 2px solid #d60949;
+
+    /* Animation */
+}
+
+.borderLeftCrimsonDivLine {
+
+    /* Display Layer */
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    border-left: 2px solid #d60949;
+
+    /* Animation */
+}
+
+.borderRightCrimsonDivLine {
+
+    /* Display Layer */
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    border-right: 2px solid #d60949;
+
+    /* Animation */
+}
+
+.borderRightBlackDivLine {
+
+    /* Display Layer */
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    border-right: 2px solid #363435;
+
+    /* Animation */
+}
+
+.panelTabDivClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+
+    /* Dimensions */
+    width: 100%;
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.widthAdjFullClass {
+
+    width: 100%;
+}
+
+.heightAdjFullClass {
+
+    height: 100%;
+}
+
+.textDecoNoneClass {
+
+    text-decoration: none;
+    color: #c8c6c7;
+}
+
+.cursorPointerToggleClass {
+
+    cursor: pointer;
+}
+
+.flexFlowColClass {
+
+    display: flex;
+    flex-flow: column;
+}
+.flexFlowRowClass {
+
+    display: flex;
+    flex-flow: row;
+}
+
+.paddSmallClass {
+
+    padding: 5px;
+}
+
+.paddMediumClass {
+
+    padding: 10px;
+}
+
+.paddBottomSmallClass {
+
+    padding-bottom: 5px;
+}
+
+.cardClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Dimensions */
+    width: 10vw;
+    height: 20vh;
+    margin: 10px;
+
+    /* Text Styles */
+    /* Element Styles */
+    background-color: rgba(17, 10, 12, 0.55);
+
+    /* Animation */
+}
+
+.cardRowOneClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3 1;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.cardRowTwoClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    /* Animation */
+}
+
+.cardClass:hover {
+
+    background-color: rgba(214, 9, 73, 0.51);
+}
+
+.titleTabProfileClass {
+
+    /* Display Layer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    flex: 1 1;
+
+    /* Dimensions */
+    /* Text Styles */
+    /* Element Styles */
+    background-color: rgba(17, 10, 12, 0.55);
+    /* Animation */
+}

@@ -1,378 +1,33 @@
-/* Display Layer */
-/* Dimensions */
-/* Text Styles */
-/* Element Styles */
-/* Animation */
-
-
-.bodyClass {
-
-    /* Display Layer */
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    margin: 0px 0px; !important;
-    padding: 0px 0px; !important;
-    min-height: 99vh;
-
-    /* Text Styles */
-    /* Element Styles */
-    background-color: #c8c6c7;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-    /* Animation */
-}
-
-.flexOneOneClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.headerSignOutButtonClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    width: 10vw;
-    height: 5vh;
-    margin: 5px;
-
-    /* Text Styles */
-    text-transform: none;
-    color: white;
-
-    /* Element Styles */
-    background-color: #a4959e;
-    border: none;
-    border-radius: 5px;
-    /* Animation */
-}
-
-.lightButtonOneClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    width: 15vw;
-    height: 7vh;
-    margin: 15px;
-
-    /* Text Styles */
-    text-transform: none;
-    color: white;
-
-    /* Element Styles */
-    background-color: #110a0c;
-    border: none;
-    border-radius: 5px;
-    /* Animation */
-}
-
-.darkButtonTwoClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    width: 15vw;
-    height: 7vh;
-    margin: 15px;
-
-    /* Text Styles */
-    text-transform: none;
-    color: white;
-
-    /* Element Styles */
-    background-color: #a4959e;
-    border: none;
-    border-radius: 5px;
-    /* Animation */
-}
-
-.fillerClass {
-
-    /* Display Layer */
-    display: flex;
-    flex: 1 1;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.alignTopClass {
-
-    /* Display Layer */
-    display: flex;
-    align-self: flex-start;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.alignCenterClass {
-
-    /* Display Layer */
-    display: flex;
-    align-self: center;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.alignBottomClass {
-
-    /* Display Layer */
-    display: flex;
-    align-self: flex-end;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.alignLeftClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.alignRightClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.borderBottomCrimsonDivLine {
-
-    /* Display Layer */
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    border-bottom: 2px solid #d60949;
-
-    /* Animation */
-}
-
-.borderLeftCrimsonDivLine {
-
-    /* Display Layer */
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    border-left: 2px solid #d60949;
-
-    /* Animation */
-}
-
-.borderRightCrimsonDivLine {
-
-    /* Display Layer */
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    border-right: 2px solid #d60949;
-
-    /* Animation */
-}
-
-.panelTabDivClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1;
-
-    /* Dimensions */
-    width: 100%;
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.widthAdjFullClass {
-
-    width: 100%;
-}
-
-.textDecoNoneClass {
-
-    text-decoration: none;
-    color: #c8c6c7;
-}
-
-.cursorPointerToggleClass {
-
-    cursor: pointer;
-}
-
-.flexFlowColClass {
-
-    display: flex;
-    flex-flow: column;
-}
-.flexFlowRowClass {
-
-    display: flex;
-    flex-flow: row;
-}
-
-.paddSmallClass {
-
-    padding: 5px;
-}
-
-.paddMediumClass {
-
-    padding: 10px;
-}
-
-.paddBottomSmallClass {
-
-    padding-bottom: 5px;
-}
-
-.cardClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    width: 10vw;
-    height: 20vh;
-    margin: 10px;
-
-    /* Text Styles */
-    /* Element Styles */
-    background-color: rgba(17, 10, 12, 0.55);
-
-    /* Animation */
-}
-
-    .cardRowOneClass {
+/*
+    //==========================\\
+    ||      Default Styling     ||
+    \\==========================//
+*/
+/*====================================================================================================================*/
+/*
+    //==========================\\
+    ||      Body Styling        ||
+    \\==========================//
+*/
+
+    .headerClass {
 
         /* Display Layer */
         display: flex;
         justify-content: center;
         align-items: center;
-        flex: 3 1;
 
         /* Dimensions */
+        width: 99vw;
+        min-height: 20vh;
+        padding-top: 5px;
+        padding-bottom: 10px;
+
         /* Text Styles */
         /* Element Styles */
+        background-color: #d60949;
         /* Animation */
     }
-
-    .cardRowTwoClass {
-
-        /* Display Layer */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex: 1 1;
-
-        /* Dimensions */
-        /* Text Styles */
-        /* Element Styles */
-        /* Animation */
-    }
-
-    .cardClass:hover {
-
-        background-color: rgba(214, 9, 73, 0.51);
-    }
-
-.debugDimenOneClass {
-
-    border: 5px solid red;
-}
-
-.debugDimenTwoClass {
-
-    border: 5px solid blue;
-}
-
-.debugDimenThreeClass {
-
-    border: 5px solid gold;
-}
-
-.debugDimenFourClass {
-
-    border: 5px solid purple;
-}
-
-.debugDimenFiveClass {
-
-    border: 5px solid greenyellow;
-}
-
-.headerClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    width: 99vw;
-    min-height: 20vh;
-    padding-top: 5px;
-    padding-bottom: 10px;
-
-    /* Text Styles */
-    /* Element Styles */
-    background-color: #d60949;
-    /* Animation */
-}
 
     .headerImageClass {
 
@@ -388,23 +43,23 @@
 
 
 
-.sectionClass {
+    .sectionClass {
 
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 8 1;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 8 1;
 
-    /* Dimensions */
-    width: 99vw;
-    padding: 0px;
-    margin: 0px;
+        /* Dimensions */
+        width: 99vw;
+        padding: 0px;
+        margin: 0px;
 
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
 
     .panelDivClass {
 
@@ -430,102 +85,102 @@
         /* Animation */
     }
 
-        .propicPanelDivClass {
+    .propicPanelDivClass {
 
-            /* Display Layer */
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-            /* Dimensions */
-            height: 100%;
-            /* Text Styles */
-            /* Element Styles */
-            /* Animation */
-        }
+        /* Dimensions */
+        height: 100%;
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
 
-            .propicDivClass {
+    .propicDivClass {
 
-                /* Display Layer */
-                display: flex;
-                justify-content: center;
-                align-items: center;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-                /* Dimensions */
-                height: 12vh;
-                width: 10vw;
-                /* Text Styles */
-                /* Element Styles */
-                /* Animation */
-            }
+        /* Dimensions */
+        height: 12vh;
+        width: 10vw;
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
 
-            .propicDivClass:hover {
+    .propicDivClass:hover {
 
-                background-color: rgba(214, 9, 73, 0.51);
-            }
+        background-color: rgba(214, 9, 73, 0.51);
+    }
 
-        .propicInfoPanelDivClass {
+    .propicInfoPanelDivClass {
 
-            /* Display Layer */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-flow: column;
-            flex: 4 1;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        flex: 4 1;
 
-            /* Dimensions */
-            height: 100%;
-            /* Text Styles */
-            /* Element Styles */
-            /* Animation */
-        }
+        /* Dimensions */
+        height: 100%;
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
 
-            .panelPracticeDivClass {
+    .panelPracticeDivClass {
 
-                /* Display Layer */
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-flow: row;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
 
-                /* Dimensions */
-                width: 100%;
+        /* Dimensions */
+        width: 100%;
 
-                /* Text Styles */
-                /* Element Styles */
-                /* Animation */
-            }
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
 
-            .panelPracticeDivClass:hover {
+    .panelPracticeDivClass:hover {
 
-                background-color: rgba(214, 9, 73, 0.51);
-            }
+        background-color: rgba(214, 9, 73, 0.51);
+    }
 
-            .panelLocationDivClass {
+    .panelLocationDivClass {
 
-                /* Display Layer */
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-flow: row;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
 
-                /* Dimensions */
-                width: 100%;
+        /* Dimensions */
+        width: 100%;
 
-                /* Text Styles */
-                /* Element Styles */
-                /* Animation */
-            }
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
 
-            .panelLocationDivClass:hover {
+    .panelLocationDivClass:hover {
 
-                background-color: rgba(214, 9, 73, 0.51);
-            }
+        background-color: rgba(214, 9, 73, 0.51);
+    }
 
-            .panelTabDivClass:hover {
+    .panelTabDivClass:hover {
 
-                background-color: rgba(214, 9, 73, 0.51);
-            }
+        background-color: rgba(214, 9, 73, 0.51);
+    }
 
     .sectionDivClass {
 
@@ -545,123 +200,145 @@
         /* Animation */
     }
 
-            .ratingSectionDivClass {
+    .ratingSectionDivClass {
 
-                /* Display Layer */
-                display: flex;
-                align-self: flex-end;
+        /* Display Layer */
+        display: flex;
+        align-self: flex-end;
 
-                /* Dimensions */
-                padding-right: 5px;
+        /* Dimensions */
+        padding-right: 5px;
 
-                /* Text Styles */
-                font-size: smaller;
+        /* Text Styles */
+        font-size: smaller;
 
-                /* Element Styles */
-                /* Animation */
-            }
-            .dashboardSectionDivClass {
+        /* Element Styles */
+        /* Animation */
+    }
+    .dashboardSectionDivClass {
 
-                /* Display Layer */
-                display: flex;
+        /* Display Layer */
+        display: flex;
 
-                /* Dimensions */
-                /* Text Styles */
-                font-weight: 950;
-                font-size: 6vh;
+        /* Dimensions */
+        /* Text Styles */
+        font-weight: 950;
+        font-size: 6vh;
 
-                /* Element Styles */
-                /* Animation */
-            }
+        /* Element Styles */
+        /* Animation */
+    }
 
-        .sectionMainDivClass {
+    .sectionMainDivClass {
 
-            /* Display Layer */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-flow: column;
-            flex: 6 1;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        flex: 6 1;
 
-            /* Dimensions */
-            /* Text Styles */
-            /* Element Styles */
-            /* Animation */
-        }
+        /* Dimensions */
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
 
-            .sectionMainRowOneDivClass {
+    .sectionMainRowOneDivClass {
 
-                /* Display Layer */
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-flow: row;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
 
-                /* Dimensions */
-                /* Text Styles */
-                /* Element Styles */
-                /* Animation */
-            }
+        /* Dimensions */
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
 
-            .sectionMainRowTwoDivClass {
+    .sectionMainRowTwoDivClass {
 
-                /* Display Layer */
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-flow: row;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
 
-                /* Dimensions */
-                /* Text Styles */
-                /* Element Styles */
-                /* Animation */
-            }
+        /* Dimensions */
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
 
-                .profileInfoDivClass {
+    .profileInfoDivClass {
 
-                    /* Display Layer */
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-flow: column;
-                    flex: 5 1;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+        flex: 5 1;
 
-                    /* Dimensions */
-                    height: 100%;
+        /* Dimensions */
+        height: 100%;
 
-                    /* Text Styles */
-                    /* Element Styles */
-                    /* Animation */
-                }
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
 
-        .tooltipSectionClass {
+    .mapSectionDivClass {
 
-            /* Display Layer */
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-            /* Dimensions */
-            padding-top: 4px;
+        /* Dimensions */
+        /* Text Styles */
+        /* Element Styles */
+        background-color: #8d8b8c;
 
-            /* Text Styles */
-            /* Element Styles */
-            /* Animation */
-        }
+        /* Animation */
+    }
 
-.footerClass {
+    .tooltipSectionClass {
 
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    /* Dimensions */
-    width: 99vw;
-    min-height: 20vh;
+        /* Dimensions */
+        padding-top: 4px;
 
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
+
+    .footerClass {
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 99vw;
+        min-height: 20vh;
+
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
+/*====================================================================================================================*/
+/*
+    //==========================\\
+    ||      Extra Styling      ||
+    \\==========================//
+*/
+/*====================================================================================================================*/
 
