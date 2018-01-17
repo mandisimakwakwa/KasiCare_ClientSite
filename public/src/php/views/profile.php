@@ -12,15 +12,15 @@
     >
 
     <link rel="stylesheet"
-          href="../../../resources/libs/font_awesome/css/font-awesome.css"
+          href="../../../../resources/libs/font_awesome/css/font-awesome.css"
     >
 
     <link rel="stylesheet"
-          href="../../../resources/libs/boilerplate/boilerplate.css"
+          href="../../../../resources/libs/boilerplate/boilerplate.css"
     >
 
     <link rel="stylesheet"
-          href="../../../resources/libs/boilerplate/normalize.css"
+          href="../../../../resources/libs/boilerplate/normalize.css"
     >
 
     <link rel="stylesheet"
@@ -36,21 +36,21 @@
           href="../../css/debug.css"
     >
 
-    <title>Layout</title>
+    <title>Profile</title>
 </head>
-<body>
+<body class="bodyClass">
 
 <div class="headerClass flexOneOneClass borderBottomCrimsonDivLine">
 
     <div class="flexOneOneClass alignTopClass alignLeftClass">
 
-        <img src="../../../resources/images/misc/qr_example.png"
+        <img src="../../../../resources/images/misc/qr_example.png"
              class="headerImageClass"
         />
     </div>
     <div class="flexOneOneClass">
 
-        <img src="../../../resources/images/misc/kasicare.png"
+        <img src="../../../../resources/images/misc/kasicare.png"
              class="headerImageClass"
         />
     </div>
@@ -116,8 +116,38 @@
     </div>
     <div class="sectionDivClass">
 
-        <div class="paddBottomSmallClass widthAdjFullClass flexFlowColClass flexOneOneClass borderBottomCrimsonDivLine"></div>
-        <div class="sectionMainDivClass widthAdjFullClass flexOneOneClass borderBottomCrimsonDivLine"></div>
+        <div class="dashboardSectionDivClass paddBottomSmallClass widthAdjFullClass flexFlowColClass flexOneOneClass borderBottomCrimsonDivLine">
+            Profile
+        </div>
+        <div class="sectionMainDivClass widthAdjFullClass flexOneOneClass borderBottomCrimsonDivLine">
+
+            <div class="flexOneOneClass widthAdjFullClass">
+
+                <i class="fa fa-info fa-5x flexOneOneClass borderRightCrimsonDivLine"></i>
+                <div class="profileInfoDivClass flexOneOneClass"></div>
+            </div>
+            <div class="mapSectionDivClass flexOneOneClass widthAdjFullClass">
+
+                <i class="fa fa-map fa-5x flexOneOneClass borderRightCrimsonDivLine"></i>
+                <div class="profileInfoDivClass flexOneOneClass">
+
+                    <div class="flexOneOneClass alignTopClass paddSmallClass heightAdjFullClass">
+
+                        <div class="titleTabProfileClass paddSmallClass">Map</div>
+                        <img src=""
+                        />
+                    </div>
+                    <div class="flexOneOneClass alignTopClass paddSmallClass heightAdjFullClass">
+                        <div class="titleTabProfileClass paddSmallClass">Office Hours</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flexOneOneClass widthAdjFullClass">
+
+                <i class="fa fa-medkit fa-5x flexOneOneClass borderRightCrimsonDivLine"></i>
+                <div class="profileInfoDivClass flexOneOneClass"></div>
+            </div>
+        </div>
         <div class="tooltipSectionClass widthAdjFullClass flexOneOneClass"></div>
     </div>
 </div>

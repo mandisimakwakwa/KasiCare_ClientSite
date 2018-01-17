@@ -12,19 +12,19 @@
         >
 
         <link rel="stylesheet"
-              href="../../../resources/libs/font_awesome/css/font-awesome.css"
+              href="../../../../resources/libs/font_awesome/css/font-awesome.css"
         >
 
         <link rel="stylesheet"
-              href="../../../resources/libs/font_awesome/css/font-awesome.css"
+              href="../../../../resources/libs/font_awesome/css/font-awesome.css"
         >
 
         <link rel="stylesheet"
-              href="../../../resources/libs/boilerplate/boilerplate.css"
+              href="../../../../resources/libs/boilerplate/boilerplate.css"
         >
 
         <link rel="stylesheet"
-              href="../../../resources/libs/boilerplate/normalize.css"
+              href="../../../../resources/libs/boilerplate/normalize.css"
         >
 
         <link rel="stylesheet"
@@ -48,13 +48,13 @@
 
             <div class="flexOneOneClass alignTopClass alignLeftClass">
 
-                <img src="../../../resources/images/misc/qr_example.png"
+                <img src="../../../../resources/images/misc/qr_example.png"
                      class="headerImageClass"
                 />
             </div>
             <div class="flexOneOneClass">
 
-                <img src="../../../resources/images/misc/kasicare.png"
+                <img src="../../../../resources/images/misc/kasicare.png"
                      class="headerImageClass"
                 />
             </div>

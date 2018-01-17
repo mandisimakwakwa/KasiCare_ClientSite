@@ -171,15 +171,15 @@
     }
 
     .bkgdImage_a{
-        background-image: url("../../resources/images/backgrounds/banner.jpg");
+        background-image: url("../../../resources/images/backgrounds/banner.jpg");
     }
 
     .bkgdImage_b{
-        background-image: url("../../resources/images/backgrounds/banner2.jpg");
+        background-image: url("../../../resources/images/backgrounds/banner2.jpg");
     }
 
     .bkgdImage_c{
-        background-image: url("../../resources/images/backgrounds/banner3.jpg");
+        background-image: url("../../../resources/images/backgrounds/banner3.jpg");
     }
 
     .flexify{

@@ -12,15 +12,15 @@
         >
 
         <link rel="stylesheet"
-              href="../../../resources/libs/font_awesome/css/font-awesome.css"
+              href="../../../../resources/libs/font_awesome/css/font-awesome.css"
         >
 
         <link rel="stylesheet"
-              href="../../../resources/libs/boilerplate/boilerplate.css"
+              href="../../../../resources/libs/boilerplate/boilerplate.css"
         >
 
         <link rel="stylesheet"
-              href="../../../resources/libs/boilerplate/normalize.css"
+              href="../../../../resources/libs/boilerplate/normalize.css"
         >
 
         <link rel="stylesheet"
@@ -45,7 +45,7 @@
 
                 <div class="flexify flx_1_1 fulWidth_strch logoBlack_BkgdColr">
                     
-                    <img src="../../../resources/images/misc/kasicare.png"
+                    <img src="../../../../resources/images/misc/kasicare.png"
                          class="logoImg"
                     />
                 </div>
@@ -66,7 +66,7 @@
 
                 <div class="flexify flx_1_1 fulWidth_strch themeDPink_BkgdColrC">
 
-                    <img src="../../../resources/images/misc/kasicare.png"
+                    <img src="../../../../resources/images/misc/kasicare.png"
                          class="logoImg"
                     />
                 </div>
@@ -164,10 +164,10 @@
                 </div>
                 <div class="flexify flx_1_1 fulWidth_strch">
 
-                    <img src="../../../resources/images/misc/kasicare.png"
+                    <img src="../../../../resources/images/misc/kasicare.png"
                          class="talkToUs"
                     />
-                    <img src="../../../resources/images/misc/we-think-code.png"
+                    <img src="../../../../resources/images/misc/we-think-code.png"
                          class="talkToUs"
                     />
                 </div>

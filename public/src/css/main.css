@@ -268,7 +268,7 @@
     }
 
     .bkgdImage_beep{
-        background-image: url("../../resources/images/misc/beep.png");
+        background-image: url("../../../resources/images/misc/beep.png");
         background-repeat:no-repeat;
         background-size:95% 75%;
     }
