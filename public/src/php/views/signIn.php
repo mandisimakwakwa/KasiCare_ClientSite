@@ -34,6 +34,7 @@
         <link rel="stylesheet"
               href="../../css/debug.css"
         >
+        <script src="../../js/jquery.min.js"></script>
 
         <title>Sign In</title>
     </head>
@@ -90,5 +91,6 @@
                 </div>
             </div>
         </div>
+        <script src="../../js/main.js"></script>
     </body>
 </html>
