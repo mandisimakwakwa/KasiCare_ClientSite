@@ -56,31 +56,28 @@
                 <h1 class="halfWidth_strch">Profile</h1>
             </div>
 
-            <div class="flexify flx_1_1 fulWidth_strch">
+            <div class="flexify flx_1_1 fulWidth_strch themeGrey_TxtColrB">
 
-                <div class="flx_4_1 fontSize_Large flexify">
+                <div class="flx_4_1 fontSize_Large flexify flexFlow_column">
 
                     <a href="#" class="txtDeco_None margin_10 themeGrey_TxtColrB">Practice Name<div class="themeGrey_BkgdColrC margin_5 padding_5 fa fa-pencil fa-1x"></div></a>
+                    <div class="margin_10">Location</div>
                 </div>
                 <div class="fa fa-image fa-5x margin_10 sCard flx_1_1"></div>
-                <div class="flx_4_1">Rating : 3.8</div>
+                <div class="flx_4_1">
+                    <div>Rating : 3.8</div>
+                    <div class="margin_10">Office Hours</div>
+                </div>
             </div>
             <div class="themeBlack_BkgdColrC flexify flx_1_1 fulWidth_strch">
 
-                <div class="flx_4_1 fontSize_Large flexify">
-
                     <div class="flexify flx_1_1 themeGrey_TxtColrB flexFlow_column">
 
-                        <div class="margin_10">Office Hours</div>
-                        <div class="margin_10">Location</div>
-                    </div>
-                    <div class="flexify flx_2_1 themeGrey_TxtColrB flexFlow_column">
-
+                        <div class="">Map</div>
                         <img src="../../../../resources/images/misc/map.png"
                              class="mapImage"
                         />
                     </div>
-                </div>
             </div>
         </div>
     </body>
