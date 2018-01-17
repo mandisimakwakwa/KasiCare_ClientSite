@@ -5,7 +5,7 @@
 var appSet={
     url:"https://localhost/mvc/api",
     arr:{
-        email:"email",
+        singIn:"email",
         password:"user_passcode",
         firstname:"name",
         lastname:"surname",
@@ -27,7 +27,7 @@ $("#login").submit(function(e){
     e.preventDefault();
     var inputs =  $("form#login").serializeArray();
     if (inputs["password"].value !== ""){
-        appSend.formInput(inputs,"login_sign");
+        appSend.formInput(inputs,"login");
     }else{
         
     }
