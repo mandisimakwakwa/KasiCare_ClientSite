@@ -66,14 +66,14 @@
                 <div class="fa fa-image fa-5x margin_10 sCard flx_1_1"></div>
                 <div class="flx_4_1">
                     <div>Rating : 3.8</div>
-                    <div class="margin_10">Office Hours</div>
+                    <div class="margin_10">Mon - Fri: 08H00 - 16H00</div>
                 </div>
             </div>
             <div class="themeBlack_BkgdColrC flexify flx_1_1 fulWidth_strch">
 
                     <div class="flexify flx_1_1 themeGrey_TxtColrB flexFlow_column">
 
-                        <div class="">Map</div>
+                        <div class="fontSize_Medium">Map</div>
                         <img src="../../../../resources/images/misc/map.png"
                              class="mapImage"
                         />
