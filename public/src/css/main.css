@@ -280,10 +280,21 @@
     }
 
     .bkgdImage_beep{
+
         background-image: url("../../../resources/images/misc/beep.png");
         background-repeat:no-repeat;
         background-size:95% 75%;
     }
+
+    .btn_SmallMenu{
+
+        display: flex;
+        position: fixed;
+
+    }
+
+    .btn_MediumMenu{}
+    .btn_LargeMenu{}
 /*====================================================================================================================*/
 /*
     //==========================\\
