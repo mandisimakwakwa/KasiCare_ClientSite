@@ -55,6 +55,11 @@
         width: 50vw;
     }
 
+    .quartrWidth_strch{
+
+        width: 30vw;
+    }
+
     .fulHeight_strch{
 
         align-items: stretch;
@@ -103,11 +108,11 @@
     }
 
     .themeBlack_TxtColrB{
-        color: rgba(17, 10, 12, 0.75);
+        color: rgba(17, 10, 12, 0.9);
     }
 
     .themeBlack_TxtColrC{
-        color: rgba(17, 10, 12, 0.5);
+        color: rgba(17, 10, 12, 0.75);
     }
 
     .themeGold_TxtColrA{
@@ -162,11 +167,11 @@
         background-color: #a36832;
     }
 
-    .themeGold_BkgdColrA{
+    .themeGold_BkgdColrB{
         background-color: rgba(163, 104, 50, 0.55);
     }
 
-    .themeGold_BkgdColrA{
+    .themeGold_BkgdColrC{
         background-color: rgba(163, 104, 50, 0.25);
     }
 
@@ -401,7 +406,7 @@
         align-items: center;
 
         /* Dimensions */
-        height: 30vh;
+        height: 10vh;
         width: 50vw;
         margin: 20px;
 

@@ -203,6 +203,18 @@
         text-transform: uppercase;
         border: transparent;
     }
+
+    select{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: transparent;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
 /*====================================================================================================================*/
 /*
     //==========================\\
