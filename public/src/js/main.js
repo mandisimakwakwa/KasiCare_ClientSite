@@ -60,5 +60,15 @@ var appSend = {
             console.log(resp);
             break;
         }
+    },
+    onSs:function(pos){
+        document.getElementById("geolocation").value = pos.coords.Longitude.toString() + '-' 
+        + pos.coords.Latitude.toString();
+    },
+    onEr:function(error){
+        console.log(error);
+    },
+    getGeo:function(){
+        navigator.geolocation.getCurrentPosition(appSend.onSs,appSend.onEr);
     }
 }
