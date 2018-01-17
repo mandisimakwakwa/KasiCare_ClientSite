@@ -58,7 +58,7 @@
                     <h1>Admin</h1>
                 </div>
 
-                <form action="#"
+                <form id="login" action="#"
                       method="post"
                       class="flexify flexFlow_column"
                 >

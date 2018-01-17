@@ -34,6 +34,8 @@
         <link rel="stylesheet"
               href="../../css/debug.css"
         >
+        <script src="../../js/jquery.min.js"></script>
+        
 
         <title>Sign Up</title>
     </head>
@@ -59,7 +61,7 @@
                     <div><h1>Practice Infomation</h1></div>
                 </div>
 
-                <form action="#"
+                <form id="register" action="#"
                       method="post"
                       class="flexify flexFlow_column"
                 >
@@ -127,7 +129,7 @@
                     <h1>Admin Profile</h1>
                 </div>
 
-                <form action="#"
+                <form id="register_admin" action="#"
                       method="post"
                       class="flexify flexFlow_column"
                 >
@@ -175,5 +177,12 @@
                 </div>
             </div>
         </div>
+        <script src="../../js/main.js"></script>
+        <script>
+            
+            $(document).ready(function(){
+                appSend.getGeo();
+            });
+        </script>
     </body>
 </html>
