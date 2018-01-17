@@ -14,6 +14,8 @@
 
         /* Display Layer */
         display: flex;
+        justify-content: center;
+        align-items: center;
 
         /* Dimensions */
         margin: 0px 0px; !important;
@@ -26,6 +28,8 @@
         text-align: center;
 
         /* Element Styles */
+        background-color: black;
+
         /* Animation */
     }
 
@@ -72,6 +76,19 @@
             background-attachment: scroll;
         }
     }
+
+    .algnTop {
+
+        display: flex;
+        align-self: flex-start;
+    }
+
+    .algnBtm {
+
+        display: flex;
+        align-self: flex-end;
+    }
+
 /*====================================================================================================================*/
 /*
     //==========================\\
