@@ -53,7 +53,7 @@
                     <img src="../../../../resources/images/misc/kasicare.png"
                          class="logoImg flx_1_1"
                     />
-                    <div class="flexify flx_8_1 titleTxt_FX fontSize_Larger"></div>
+                    <div class="flexify flx_8_1 fontSize_Larger"></div>
                     <div class="btn_Small themeBlack_BkgdColrC algnTop">Sign Out</div>
                 </div>
 
@@ -62,18 +62,35 @@
                     <div class="fa fa-bars fa-2x btn_MedCircle"></div>
                     <h1 class="halfWidth_strch">Dashboard</h1>
                 </div>
-                <div class="flexify flx_2_1 fulWidth_strch">
+                <div class="flexify flx_1_1 fulWidth_strch">
 
-                    <div class="mCard margin_10">
+                    <div class="mCard margin_10 flexFlow_column">
 
-
+                        <div class="algnTop margin_20">112</div>
+                        <div class="fa fa-user fa-4x margin_10"></div>
+                        <div class="margin_10 fontSize_Large">Patients</div>
                     </div>
-                    <div class="mCard margin_10">Email</div>
-                </div>
-                <div class="flexify flx_2_1 fulWidth_strch">
+                    <div class="mCard margin_10 flexFlow_column">
 
-                    <div class="mCard margin_10">Notifications</div>
-                    <div class="mCard margin_10">Appointments</div>
+                        <div class="algnTop margin_20">232</div>
+                        <div class="fa fa-envelope fa-4x margin_10"></div>
+                        <div class="margin_10 fontSize_Large">Email</div>
+                    </div>
+                </div>
+                <div class="flexify flx_1_1 fulWidth_strch">
+
+                    <div class="mCard margin_10 flexFlow_column">
+
+                        <div class="algnTop margin_20">32</div>
+                        <div class="fa fa-bell fa-4x margin_10"></div>
+                        <div class="margin_10 fontSize_Large">Notifications</div>
+                    </div>
+                    <div class="mCard margin_10 flexFlow_column">
+
+                        <div class="algnTop margin_20">32</div>
+                        <div class="fa fa-calendar fa-4x margin_10"></div>
+                        <div class="margin_10 fontSize_Large">Appointments</div>
+                    </div>
                 </div>
             </div>
         </div>
