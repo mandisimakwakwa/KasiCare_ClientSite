@@ -1,42 +1,42 @@
 /*Debug Border*/
 
-    .debugBorder_redClass{
+    .dbgRed_BrdrColr{
         border: 2px solid red;
     }
 
-    .debugBorder_blueClass{
+    .dbgBlue_BrdrColr{
         border: 2px solid blue;
     }
 
-    .debugBorder_greenClass{
+    .dbgGreen_BrdrColr{
         border: 2px solid green;
     }
 
-    .debugBorder_yellowClass{
+    .dbgYellow_BrdrColr{
         border: 2px solid yellow;
     }
 
-    .debugBorder_pinkClass{
+    .dbgPink_BrdrColr{
         border: 2px solid deeppink;
     }
 
-    .debugBorder_orangeClass{
+    .dbgOrange_BrdrColr{
         border: 2px solid orange;
     }
 
-    .debugBorder_purpleClass{
+    .dbgPurple_BrdrColr{
         border: 2px solid purple;
     }
 
-    .debugBorder_silverClass{
+    .dbgSilver_BrdrColr{
         border: 2px solid silver;
     }
 
-    .debugBorder_blackClass{
+    .dbgBlack_BrdrColr{
         border: 2px solid black;
     }
 
-    .debugBorder_whiteClass{
+    .dbgWhite_BrdrColr{
         border: 2px solid white;
     }
 
@@ -45,42 +45,42 @@
 
 /*Debug Background*/
 
-    .debugBackground_redClass{
+    .dbgRed_BkgdColr{
         background: red;
     }
 
-    .debugBackground_blueClass{
+    .dbgBlue_BkgdColr{
         background: blue;
     }
 
-    .debugBackground_greenClass{
+    .dbgGreen_BkgdColr{
         background: green;
     }
 
-    .debugBackground_yellowClass{
+    .dbgYellow_BkgdColr{
         background: yellow;
     }
 
-    .debugBackground_pinkClass{
+    .dbgPink_BkgdColr{
         background: deeppink;
     }
 
-    .debugBackground_orangeClass{
+    .dbgOrange_BkgdColr{
         background: orange;
     }
 
-    .debugBackground_purpleClass{
+    .dbgPurple_BkgdColr{
         background: purple;
     }
 
-    .debugBackground_silverClass{
+    .dbgSilver_BkgdColr{
         background: silver;
     }
 
-    .debugBackground_blackClass{
+    .dbgBlack_BkgdColr{
         background: black;
     }
 
-    .debugBackground_whiteClass{
+    .dbgWhite_BkgdColr{
         background: white;
     }

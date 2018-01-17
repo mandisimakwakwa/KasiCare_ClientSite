@@ -3,17 +3,282 @@
     ||      Default Styling     ||
     \\==========================//
 */
+
+    .sectionDiv {
+
+        /* Display Layer */
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        margin: 0px 0px; !important;
+        padding: 0px 0px; !important;
+
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
+
+    .parallxFX_Pg{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        margin: 0px 0px; !important;
+        padding: 0px 0px; !important;
+        min-height: 100vh;
+
+        /* Text Styles */
+        /* Element Styles */
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+        /* Animation */
+    }
+
+    .card_Contr{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 4 1;
+    }
+
+    .sCard{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 10vw;
+        height: 20vh;
+        margin: 10px;
+
+        /* Text Styles */
+        /* Element Styles */
+        border-radius: 2.5px;
+        border: none;
+        cursor: pointer;
+
+        /* Animation */
+    }
+
+    .sCard:hover{box-shadow: 15px 15px 15px black;}
+
+    .mCard{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 15vw;
+        height: 25vh;
+        margin: 10px;
+
+        /* Text Styles */
+        /* Element Styles */
+        box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6);
+        border-radius: 2.5px;
+        border: none;
+        cursor: pointer;
+
+        /* Animation */
+    }
+
+    .mCard:hover{box-shadow: 15px 15px 15px black;}
+
+    .lCard{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 20vw;
+        height: 30vh;
+        margin: 15px;
+
+        /* Text Styles */
+        /* Element Styles */
+        box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6);
+        border-radius: 2.5px;
+        border: none;
+        cursor: pointer;
+
+        /* Animation */
+    }
+
+    .lCard:hover{box-shadow: 15px 15px 15px black;}
+
+    .panelContr_Right{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1;
+
+        /* Dimensions */
+        height: 75vh;
+
+        /* Text Styles */
+        /* Element Styles */
+        box-shadow: 5px 2px 25px black;
+
+        /* Animation */
+    }
+
+    .modal {
+
+        /* Display Layers */
+        display: none;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
+
+    .modalContent {
+
+        /* Display Layer */
+        display: flex;
+        position: fixed;
+        flex-flow: column;
+
+        /* Dimensions */
+        height: 70%;
+        width: 25%;
+        z-index: 25;
+
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
+
+    input{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: transparent;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: transparent;
+    }
+
+    textarea{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 60vw;
+
+        background-color: transparent;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: transparent;
+    }
 /*====================================================================================================================*/
 /*
     //==========================\\
     ||      Body Styling        ||
     \\==========================//
 */
+
+    .logoImg{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 10vw;
+        height: 20vh;
+        margin: 30px;
+
+        /* Text Styles */
+        /* Element Styles */
+        border-radius: 2.5px;
+        border: none;
+
+        /* Animation */
+    }
+
+    .talkToUs{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 5vw;
+        height: 10vh;
+        margin: 5px;
+
+        /* Text Styles */
+        /* Element Styles */
+        border-radius: 2.5px;
+        border: none;
+
+        /* Animation */
+    }
+
+    .titleTxt_FX{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        margin: 15px;
+
+        /* Text Styles */
+
+
+        /* Element Styles */
+        /* Animation */
+    }
+
+    .bkgdImage_beep{
+        background-image: url("../../resources/images/misc/beep.png");
+        background-repeat:no-repeat;
+        background-size:95% 75%;
+    }
 /*====================================================================================================================*/
 /*
     //==========================\\
     ||      Extra Styling      ||
     \\==========================//
 */
+
+
 /*====================================================================================================================*/
 

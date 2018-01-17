@@ -10,13 +10,62 @@
     \\==========================//
 */
 
-    body{
+    html, body {
 
         /* Display Layer */
+        display: flex;
+
         /* Dimensions */
+        margin: 0px 0px; !important;
+        padding: 0px 0px; !important;
+
         /* Text Styles */
+        color: #c6c4c5;
+        font-weight: bolder;
+        font-family: "Courier New", monospace;
+        text-align: center;
+
         /* Element Styles */
         /* Animation */
+    }
+
+    .flx_1_1{
+        flex: 1 1;
+    }
+
+    .flx_2_1{
+        flex: 2 1;
+    }
+
+    .flx_4_1{
+        flex: 4 1;
+    }
+
+    .flx_8_1{
+        flex: 8 1;
+    }
+
+    .fulWidth_strch{
+
+        width: 98.5vw;
+    }
+
+    .halfWidth_strch{
+
+        width: 50vw;
+    }
+
+    .fulHeight_strch{
+
+        align-items: stretch;
+    }
+
+    @media (max-width: 568px) {
+
+        .parallxFX_Pg {
+
+            background-attachment: scroll;
+        }
     }
 /*====================================================================================================================*/
 /*
@@ -30,338 +79,354 @@
     ||      Extra Styling      ||
     \\==========================//
 */
+
+    .themeGrey_TxtColrA{
+        color: #c6c4c5;
+    }
+
+    .themeGrey_TxtColrB{
+        color: rgba(198, 196, 197, 0.76);
+    }
+
+    .themeGrey_TxtColrC{
+        color: rgba(198, 196, 197, 0.51);
+    }
+
+    .logoDPink_TxtColr{
+        color: #d60949;
+    }
+
+    .themePurple_TxtColrA{}
+
+    .themeBlack_TxtColrA{
+        color: #110a0c;
+    }
+
+    .themeBlack_TxtColrB{
+        color: rgba(17, 10, 12, 0.75);
+    }
+
+    .themeBlack_TxtColrC{
+        color: rgba(17, 10, 12, 0.5);
+    }
+
+    .themeGold_TxtColrA{
+        color: #a36832;
+    }
+
+    .themeGold_TxtColrB{
+        color: rgba(163, 104, 50, 0.8);
+    }
+
+    .themeGold_TxtColrC{
+        color: rgba(163, 104, 50, 0.55);
+    }
+
+    .themeGrey_BkgdColrA{
+        background-color: #c6c4c5;
+    }
+
+    .themeGrey_BkgdColrB{
+        background-color: rgba(198, 196, 197, 0.55);
+    }
+
+    .themeGrey_BkgdColrC{
+        background-color: rgba(198, 196, 197, 0.25);
+    }
+
+    .themeDPink_BkgdColrA{
+        background-color: #d60949;
+    }
+
+    .themeDPink_BkgdColrB{
+        background-color: rgba(214, 9, 73, 0.55);
+    }
+
+    .themeDPink_BkgdColrC{
+        background-color: rgba(214, 9, 73, 0.26);
+    }
+
+    .themeBlack_BkgdColrA{
+        background-color: black;
+    }
+
+    .themeBlack_BkgdColrB{
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .themeBlack_BkgdColrC{
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .themeGold_BkgdColrA{
+        background-color: #a36832;
+    }
+
+    .themeGold_BkgdColrA{
+        background-color: rgba(163, 104, 50, 0.55);
+    }
+
+    .themeGold_BkgdColrA{
+        background-color: rgba(163, 104, 50, 0.25);
+    }
+
+    .bkgdImage_a{
+        background-image: url("../../resources/images/backgrounds/banner.jpg");
+    }
+
+    .bkgdImage_b{
+        background-image: url("../../resources/images/backgrounds/banner2.jpg");
+    }
+
+    .bkgdImage_c{
+        background-image: url("../../resources/images/backgrounds/banner3.jpg");
+    }
+
+    .flexify{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flexFlow_row{
+        flex-flow: row;
+    }
+
+    .flexFlow_column{
+        flex-flow: column;
+    }
+
+    .margin_5{
+
+        margin: 5px;
+    }
+
+    .margin_10{
+        margin: 10px;
+    }
+
+    .margin_20{
+        margin: 20px;
+    }
+
+    .padding_5{
+        padding: 5px;
+    }
+
+    .padding_10{
+        padding: 10px;
+    }
+
+    .padding_20{
+        padding: 20px;
+    }
+
+    .fontSize_Small{font-size: small;}
+    .fontSize_Medium{font-size: medium;}
+    .fontSize_Large{font-size: large;}
+    .fontSize_Larger{font-size: larger;}
+
+    .btn_SmallCircle{
+
+        /* Display Layer */
+        /* Dimensions */
+        padding: 15px;
+        margin: 20px;
+
+        /* Text Styles */
+        font-size: 11px;
+        text-decoration: none;
+        text-align: center;
+
+        /* Element Styles */
+        border: 2px solid rgba(198, 196, 197, 0.45);
+        border-radius: 50%;
+        cursor: pointer;
+
+        /* Animation */
+    }
+
+    .btn_SmallCircle:hover{
+
+        border: 2px solid transparent;
+        background-color: rgba(198, 196, 197, 0.55);
+    }
+
+    .btn_MedCircle{
+
+        /* Display Layer */
+        /* Dimensions */
+        padding: 20px;
+        margin: 20px;
+
+        /* Text Styles */
+        font-size: 16px;
+        text-decoration: none;
+        text-align: center;
+
+        /* Element Styles */
+        border: 2px solid rgba(198, 196, 197, 0.45);
+        border-radius: 50%;
+        cursor: pointer;
+
+        /* Animation */
+    }
+
+    .btn_MedCircle:hover{
+
+        border: 2px solid transparent;
+        background-color: rgba(198, 196, 197, 0.55);
+    }
+
+    .btn_LargeCircle{
+
+        /* Display Layer */
+        /* Dimensions */
+        padding: 25px;
+        margin: 20px;
+
+        /* Text Styles */
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+
+        /* Element Styles */
+        border: 2px solid rgba(198, 196, 197, 0.45);
+        border-radius: 50%;
+        cursor: pointer;
+
+        /* Animation */
+    }
+
+    .btn_LargeCircle:hover{
+
+        border: 2px solid transparent;
+        background-color: rgba(198, 196, 197, 0.55);
+    }
+
+
+    .btn_Small{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 13vw;
+        height: 5vh;
+        margin: 20px;
+
+        /* Text Styles */
+        text-transform: none;
+
+        /* Element Styles */
+        border-radius: 2px;
+        cursor: pointer;
+        border: none;
+
+        /* Animation */
+    }
+
+    .btn_Small:hover{
+        box-shadow: 5px 5px 15px black;
+        background-color: #d60949;
+    }
+
+    .btn_Medium{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 15vw;
+        height: 7vh;
+        margin: 20px;
+
+        /* Text Styles */
+        text-transform: none;
+
+        /* Element Styles */
+        border-radius: 2px;
+        cursor: pointer;
+
+        /* Animation */
+    }
+
+    .btn_Medium:hover{
+
+        background-color: #d60949;
+    }
+
+    .btn_Large{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 17vw;
+        height: 9vh;
+        margin: 20px;
+
+        /* Text Styles */
+        text-transform: none;
+
+        /* Element Styles */
+        border-radius: 2px;
+        cursor: pointer;
+
+        /* Animation */
+    }
+
+    .btn_Large:hover{box-shadow: 15px 15px 15px black;}
+
+
+    .opacity_Low{opacity: .5;}
+
+    .opacity_Middle{opacity: .75;}
+
+    .opacity_High{opacity: .85}
+
+    .containerNarrow{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        height: 30vh;
+        width: 50vw;
+        margin: 20px;
+
+        /* Text Styles */
+        /* Element Styles */
+        /* Animation */
+    }
+
+    .containerWide{
+
+        /* Display Layer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* Dimensions */
+        width: 98vw;
+        height: 30vh;
+        margin: 10px;
+        padding: 5px;
+
+        /* Text Styles */
+        text-align: center;
+
+        /* Element Styles */
+        /* Animation */
+    }
 /*====================================================================================================================*/
-
-
-.flexOneOneClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.headerSignOutButtonClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    width: 10vw;
-    height: 5vh;
-    margin: 5px;
-
-    /* Text Styles */
-    text-transform: none;
-    color: white;
-
-    /* Element Styles */
-    background-color: #a4959e;
-    border: none;
-    border-radius: 5px;
-    /* Animation */
-}
-
-.lightButtonOneClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    width: 15vw;
-    height: 7vh;
-    margin: 15px;
-
-    /* Text Styles */
-    text-transform: none;
-    color: white;
-
-    /* Element Styles */
-    background-color: #110a0c;
-    border: none;
-    border-radius: 5px;
-    /* Animation */
-}
-
-.darkButtonTwoClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    width: 15vw;
-    height: 7vh;
-    margin: 15px;
-
-    /* Text Styles */
-    text-transform: none;
-    color: white;
-
-    /* Element Styles */
-    background-color: #a4959e;
-    border: none;
-    border-radius: 5px;
-    /* Animation */
-}
-
-.fillerClass {
-
-    /* Display Layer */
-    display: flex;
-    flex: 1 1;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.alignTopClass {
-
-    /* Display Layer */
-    display: flex;
-    align-self: flex-start;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.alignCenterClass {
-
-    /* Display Layer */
-    display: flex;
-    align-self: center;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.alignBottomClass {
-
-    /* Display Layer */
-    display: flex;
-    align-self: flex-end;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.alignLeftClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.alignRightClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.borderBottomCrimsonDivLine {
-
-    /* Display Layer */
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    border-bottom: 2px solid #d60949;
-
-    /* Animation */
-}
-
-.borderLeftCrimsonDivLine {
-
-    /* Display Layer */
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    border-left: 2px solid #d60949;
-
-    /* Animation */
-}
-
-.borderRightCrimsonDivLine {
-
-    /* Display Layer */
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    border-right: 2px solid #d60949;
-
-    /* Animation */
-}
-
-.borderRightBlackDivLine {
-
-    /* Display Layer */
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    border-right: 2px solid #363435;
-
-    /* Animation */
-}
-
-.panelTabDivClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1;
-
-    /* Dimensions */
-    width: 100%;
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.widthAdjFullClass {
-
-    width: 100%;
-}
-
-.heightAdjFullClass {
-
-    height: 100%;
-}
-
-.textDecoNoneClass {
-
-    text-decoration: none;
-    color: #c8c6c7;
-}
-
-.cursorPointerToggleClass {
-
-    cursor: pointer;
-}
-
-.flexFlowColClass {
-
-    display: flex;
-    flex-flow: column;
-}
-.flexFlowRowClass {
-
-    display: flex;
-    flex-flow: row;
-}
-
-.paddSmallClass {
-
-    padding: 5px;
-}
-
-.paddMediumClass {
-
-    padding: 10px;
-}
-
-.paddBottomSmallClass {
-
-    padding-bottom: 5px;
-}
-
-.cardClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Dimensions */
-    width: 10vw;
-    height: 20vh;
-    margin: 10px;
-
-    /* Text Styles */
-    /* Element Styles */
-    background-color: rgba(17, 10, 12, 0.55);
-
-    /* Animation */
-}
-
-.cardRowOneClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 3 1;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.cardRowTwoClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    /* Animation */
-}
-
-.cardClass:hover {
-
-    background-color: rgba(214, 9, 73, 0.51);
-}
-
-.titleTabProfileClass {
-
-    /* Display Layer */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: flex-start;
-    flex: 1 1;
-
-    /* Dimensions */
-    /* Text Styles */
-    /* Element Styles */
-    background-color: rgba(17, 10, 12, 0.55);
-    /* Animation */
-}
