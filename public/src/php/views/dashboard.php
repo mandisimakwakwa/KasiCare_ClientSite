@@ -42,143 +42,56 @@
 
         <title>Dashboard</title>
     </head>
-    <body class="bodyClass">
+    <body>
 
-        <div class="headerClass flexOneOneClass borderBottomCrimsonDivLine">
+        <div class="sectionDiv themeGrey_TxtColrB flexify">
 
-            <div class="flexOneOneClass alignTopClass alignLeftClass">
+            <div class="flexify parallxFX_Pg bkgdImage_b fulWidth_strch flexFlow_column">
 
-                <img src="../../../../resources/images/misc/qr_example.png"
-                     class="headerImageClass"
-                />
-            </div>
-            <div class="flexOneOneClass">
+                <div class="flexify flx_1_1 fulWidth_strch themeGrey_BkgdColrC">
 
-                <img src="../../../../resources/images/misc/kasicare.png"
-                     class="headerImageClass"
-                />
-            </div>
-            <div class="flexOneOneClass alignTopClass alignRightClass">
+                    <img src="../../../../resources/images/misc/kasicare.png"
+                         class="logoImg flx_1_1"
+                    />
+                    <div class="flexify flx_8_1"></div>
+                    <div class="btn_Small themeBlack_BkgdColrC algnTop">Sign Out</div>
+                </div>
 
-                <div class="headerSignOutButtonClass">Sign Out</div>
-            </div>
-        </div>
-        <div class="sectionClass flexOneOneClass">
+                <div class="flexify flx_1_1 flexFlow_row fulWidth_strch">
 
-            <div class="panelDivClass">
+                    <div class="fa fa-bars fa-2x btn_MedCircle"></div>
+                    <h1 class="halfWidth_strch">Dashboard</h1>
+                </div>
+                <div class="flexify flx_1_1 fulWidth_strch">
 
-                <div class="widthAdjFullClass flexFlowRowClass flexOneOneClass borderBottomCrimsonDivLine">
+                    <div class="mCard margin_10 flexFlow_column">
 
-                    <a href="#"
-                       class="propicDivClass flexOneOneClass textDecoNoneClass"
-                    >
+                        <div class="algnTop margin_20">112</div>
+                        <div class="fa fa-user fa-4x margin_10"></div>
+                        <div class="margin_10 fontSize_Large">Patients</div>
+                    </div>
+                    <div class="mCard margin_10 flexFlow_column">
 
-                        <i class="fa fa-image fa-4x"></i>
-                    </a>
-                    <div class="propicInfoPanelDivClass flexOneOneClass">
-
-                        <a href="#"
-                           class="panelPracticeDivClass flexOneOneClass textDecoNoneClass cursorPointerToggleClass">
-
-                            <i class="fa fa-home fa-lg flexOneOneClass"></i>
-                            <div class="flexOneOneClass alignLeftClass">Practice</div>
-                        </a>
-                        <a href="#"
-                           class="panelLocationDivClass flexOneOneClass textDecoNoneClass cursorPointerToggleClass">
-
-                            <i class="fa fa-map-marker fa-lg flexOneOneClass"></i>
-                            <div class="flexOneOneClass alignLeftClass">Location</div>
-                        </a>
+                        <div class="algnTop margin_20">232</div>
+                        <div class="fa fa-envelope fa-4x margin_10"></div>
+                        <div class="margin_10 fontSize_Large">Email</div>
                     </div>
                 </div>
-                <a class="panelTabDivClass">
+                <div class="flexify flx_1_1 fulWidth_strch">
 
-                    <i class="fa fa-dashboard flexOneOneClass"></i>
-                    <div class="flexOneOneClass alignLeftClass">My Dashboard</div>
-                </a>
-                <a class="panelTabDivClass">
+                    <div class="mCard margin_10 flexFlow_column">
 
-                    <i class="fa fa-user flexOneOneClass"></i>
-                    <div class="flexOneOneClass alignLeftClass">Profile</div>
-                </a>
-                <a class="panelTabDivClass">
-
-                    <i class="fa fa-money flexOneOneClass"></i>
-                    <div class="flexOneOneClass alignLeftClass">Consultation Fees</div>
-                </a>
-                <a class="panelTabDivClass">
-
-                    <i class="fa fa-cog flexOneOneClass"></i>
-                    <div class="flexOneOneClass alignLeftClass">Settings</div>
-                </a>
-                <a class="panelTabDivClass borderBottomCrimsonDivLine">
-
-                    <i class="fa fa-pie-chart flexOneOneClass"></i>
-                    <div class="flexOneOneClass alignLeftClass">Statistics</div>
-                </a>
-                <div class="flexOneOneClass">Powered By: Social Tech</div>
-            </div>
-            <div class="sectionDivClass">
-
-                <div class="paddBottomSmallClass widthAdjFullClass flexFlowColClass flexOneOneClass borderBottomCrimsonDivLine">
-
-                    <div class="ratingSectionDivClass flexOneOneClass alignRightClass">Rating: 3.5/5</div>
-                    <div class="dashboardSectionDivClass flexOneOneClass">My Dashboard</div>
-                </div>
-                <div class="sectionMainDivClass widthAdjFullClass flexOneOneClass borderBottomCrimsonDivLine">
-
-                    <div class="sectionMainRowOneDivClass widthAdjFullClass flexOneOneClass">
-
-                        <a href="#"
-                           class="cardClass flexFlowColClass textDecoNoneClass cursorPointerToggleClass"
-                        >
-
-                            <div class="cardRowOneClass">
-
-                                <i class="fa fa-user-circle fa-3x flexOneOneClass paddMediumClass"></i>
-                                <div class="flexOneOneClass paddMediumClass">35</div>
-                            </div>
-                            <div class="cardRowTwoClass">Patients</div>
-                        </a>
-                        <a href="#"
-                           class="cardClass flexFlowColClass textDecoNoneClass cursorPointerToggleClass"
-                        >
-
-                            <div class="cardRowOneClass">
-
-                                <i class="fa fa-envelope fa-3x flexOneOneClass paddMediumClass"></i>
-                                <div class="flexOneOneClass paddMediumClass">26</div>
-                            </div>
-                            <div class="cardRowTwoClass">Email</div>
-                        </a>
+                        <div class="algnTop margin_20">32</div>
+                        <div class="fa fa-bell fa-4x margin_10"></div>
+                        <div class="margin_10 fontSize_Large">Notifications</div>
                     </div>
-                    <div class="sectionMainRowTwoDivClass widthAdjFullClass flexOneOneClass">
+                    <div class="mCard margin_10 flexFlow_column">
 
-                        <a href="#"
-                           class="cardClass flexFlowColClass textDecoNoneClass cursorPointerToggleClass"
-                        >
-
-                            <div class="cardRowOneClass">
-
-                                <i class="fa fa-bell fa-3x flexOneOneClass paddMediumClass"></i>
-                                <div class="flexOneOneClass paddMediumClass">213</div>
-                            </div>
-                            <div class="cardRowTwoClass">Notifications</div>
-                        </a>
-                        <a href="#"
-                           class="cardClass flexFlowColClass textDecoNoneClass cursorPointerToggleClass"
-                        >
-
-                            <div class="cardRowOneClass">
-
-                                <i class="fa fa-address-book fa-3x flexOneOneClass paddMediumClass"></i>
-                                <div class="flexOneOneClass paddMediumClass">38</div>
-                            </div>
-                            <div class="cardRowTwoClass">Appointments</div>
-                        </a>
+                        <div class="algnTop margin_20">32</div>
+                        <div class="fa fa-calendar fa-4x margin_10"></div>
+                        <div class="margin_10 fontSize_Large">Appointments</div>
                     </div>
                 </div>
-                <div class="tooltipSectionClass widthAdjFullClass flexOneOneClass">"Type Tooltip Here..."</div>
             </div>
         </div>
     </body>
