@@ -7,7 +7,7 @@ var appSet={
     arr:{
         singIn:"email",
         password:"user_passcode",
-        firstname:"name",
+        practiceName:"name",
         lastname:"surname",
         cell:"phone"
     },

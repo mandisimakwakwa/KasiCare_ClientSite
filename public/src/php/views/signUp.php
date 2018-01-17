@@ -129,7 +129,7 @@
                     <h1>Admin Profile</h1>
                 </div>
 
-                <form action="#"
+                <form id="register_admin" action="#"
                       method="post"
                       class="flexify flexFlow_column"
                 >
