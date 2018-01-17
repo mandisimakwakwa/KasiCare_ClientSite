@@ -33,7 +33,7 @@
         /* Animation */
     }
     img {
-        object-fit: contain;
+        object-fit: contain !important;
     }
 
     .flx_1_1{
