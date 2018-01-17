@@ -31,7 +31,7 @@
         /* Dimensions */
         margin: 0px 0px; !important;
         padding: 0px 0px; !important;
-        min-height: 100vh;
+        min-height: 98.5vh;
 
         /* Text Styles */
         /* Element Styles */
@@ -62,18 +62,21 @@
         /* Dimensions */
         width: 10vw;
         height: 20vh;
-        margin: 10px;
+        margin: 5px;
 
         /* Text Styles */
         /* Element Styles */
         border-radius: 2.5px;
-        border: none;
+        border: 2px solid rgba(198, 196, 197, 0.45);
         cursor: pointer;
 
         /* Animation */
     }
 
-    .sCard:hover{box-shadow: 15px 15px 15px black;}
+    .sCard:hover{
+        border: 2px solid transparent;
+        background-color: rgba(198, 196, 197, 0.55);
+    }
 
     .mCard{
 
@@ -91,13 +94,16 @@
         /* Element Styles */
         box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6);
         border-radius: 2.5px;
-        border: none;
+        border: 2px solid rgba(177, 175, 176, 0.11);
         cursor: pointer;
 
         /* Animation */
     }
 
-    .mCard:hover{box-shadow: 5px 5px 15px black;}
+    .mCard:hover{
+        border: 2px solid transparent;
+        background-color: rgba(198, 196, 197, 0.55);
+    }
 
     .lCard{
 
@@ -115,13 +121,16 @@
         /* Element Styles */
         box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6);
         border-radius: 2.5px;
-        border: none;
+        border: 2px solid rgba(198, 196, 197, 0.45);
         cursor: pointer;
 
         /* Animation */
     }
 
-    .lCard:hover{box-shadow: 15px 15px 15px black;}
+    .lCard:hover{
+        border: 2px solid transparent;
+        background-color: rgba(198, 196, 197, 0.55);
+    }
 
     .panelContr_Right{
 
@@ -273,8 +282,6 @@
         margin: 15px;
 
         /* Text Styles */
-
-
         /* Element Styles */
         /* Animation */
     }
@@ -286,15 +293,11 @@
         background-size:95% 75%;
     }
 
-    .btn_SmallMenu{
-
-        display: flex;
-        position: fixed;
-
+    .mapImage{
+        margin: 5px;
+        height: 25vh;
+        width: 45vw;
     }
-
-    .btn_MediumMenu{}
-    .btn_LargeMenu{}
 /*====================================================================================================================*/
 /*
     //==========================\\

@@ -1,155 +1,87 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
+    <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    >
-    <meta http-equiv="X-UA-Compatible"
-          content="ie=edge"
-    >
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        >
+        <meta http-equiv="X-UA-Compatible"
+              content="ie=edge"
+        >
 
-    <link rel="stylesheet"
-          href="../../../../resources/libs/font_awesome/css/font-awesome.css"
-    >
+        <link rel="stylesheet"
+              href="../../../../resources/libs/font_awesome/css/font-awesome.css"
+        >
 
-    <link rel="stylesheet"
-          href="../../../../resources/libs/boilerplate/boilerplate.css"
-    >
+        <link rel="stylesheet"
+              href="../../../../resources/libs/boilerplate/boilerplate.css"
+        >
 
-    <link rel="stylesheet"
-          href="../../../../resources/libs/boilerplate/normalize.css"
-    >
+        <link rel="stylesheet"
+              href="../../../../resources/libs/boilerplate/normalize.css"
+        >
 
-    <link rel="stylesheet"
-          href="../../css/main.css"
-    >
+        <link rel="stylesheet"
+              href="../../css/main.css"
+        >
 
-    <link rel="stylesheet"
-          href="../../css/defaultCustom_styles.css"
-    >
+        <link rel="stylesheet"
+              href="../../css/defaultCustom_styles.css"
+        >
 
 
-    <link rel="stylesheet"
-          href="../../css/debug.css"
-    >
+        <link rel="stylesheet"
+              href="../../css/debug.css"
+        >
 
-    <title>Profile</title>
-</head>
-<body class="bodyClass">
+        <title>Profile</title>
+    </head>
+    <body>
 
-<div class="headerClass flexOneOneClass borderBottomCrimsonDivLine">
+        <div class="sectionDiv fulWidth_strch parallxFX_Pg bkgdImage_c">
 
-    <div class="flexOneOneClass alignTopClass alignLeftClass">
+            <div class="flexify flx_1_1 flexFlow_row fulWidth_strch themeGrey_BkgdColrC">
 
-        <img src="../../../../resources/images/misc/qr_example.png"
-             class="headerImageClass"
-        />
-    </div>
-    <div class="flexOneOneClass">
-
-        <img src="../../../../resources/images/misc/kasicare.png"
-             class="headerImageClass"
-        />
-    </div>
-    <div class="flexOneOneClass alignTopClass alignRightClass">
-
-        <div class="headerSignOutButtonClass">Sign Out</div>
-    </div>
-</div>
-<div class="sectionClass flexOneOneClass">
-
-    <div class="panelDivClass">
-
-        <div class="widthAdjFullClass flexFlowRowClass flexOneOneClass borderBottomCrimsonDivLine">
-
-            <a href="#"
-               class="propicDivClass flexOneOneClass textDecoNoneClass"
-            >
-
-                <i class="fa fa-image fa-4x"></i>
-            </a>
-            <div class="propicInfoPanelDivClass flexOneOneClass">
-
-                <a href="#"
-                   class="panelPracticeDivClass flexOneOneClass textDecoNoneClass cursorPointerToggleClass">
-
-                    <i class="fa fa-home fa-lg flexOneOneClass"></i>
-                    <div class="flexOneOneClass alignLeftClass">Practice</div>
-                </a>
-                <a href="#"
-                   class="panelLocationDivClass flexOneOneClass textDecoNoneClass cursorPointerToggleClass">
-
-                    <i class="fa fa-map-marker fa-lg flexOneOneClass"></i>
-                    <div class="flexOneOneClass alignLeftClass">Location</div>
-                </a>
+                <img src="../../../../resources/images/misc/kasicare.png"
+                     class="logoImg flx_1_1"
+                />
+                <div class="flexify flx_8_1"></div>
+                <div class="btn_Small themeBlack_BkgdColrC algnTop">Sign Out</div>
             </div>
-        </div>
-        <a class="panelTabDivClass">
+            <div class="flexify flx_1_1 flexFlow_row fulWidth_strch">
 
-            <i class="fa fa-dashboard flexOneOneClass"></i>
-            <div class="flexOneOneClass alignLeftClass">My Dashboard</div>
-        </a>
-        <a class="panelTabDivClass">
-
-            <i class="fa fa-user flexOneOneClass"></i>
-            <div class="flexOneOneClass alignLeftClass">Profile</div>
-        </a>
-        <a class="panelTabDivClass">
-
-            <i class="fa fa-money flexOneOneClass"></i>
-            <div class="flexOneOneClass alignLeftClass">Consultation Fees</div>
-        </a>
-        <a class="panelTabDivClass">
-
-            <i class="fa fa-cog flexOneOneClass"></i>
-            <div class="flexOneOneClass alignLeftClass">Settings</div>
-        </a>
-        <a class="panelTabDivClass borderBottomCrimsonDivLine">
-
-            <i class="fa fa-pie-chart flexOneOneClass"></i>
-            <div class="flexOneOneClass alignLeftClass">Statistics</div>
-        </a>
-        <div class="flexOneOneClass">Powered By: Social Tech</div>
-    </div>
-    <div class="sectionDivClass">
-
-        <div class="dashboardSectionDivClass paddBottomSmallClass widthAdjFullClass flexFlowColClass flexOneOneClass borderBottomCrimsonDivLine">
-            Profile
-        </div>
-        <div class="sectionMainDivClass widthAdjFullClass flexOneOneClass borderBottomCrimsonDivLine">
-
-            <div class="flexOneOneClass widthAdjFullClass">
-
-                <i class="fa fa-info fa-5x flexOneOneClass borderRightCrimsonDivLine"></i>
-                <div class="profileInfoDivClass flexOneOneClass"></div>
+                <div class="fa fa-bars fa-2x btn_MedCircle"></div>
+                <h1 class="halfWidth_strch">Profile</h1>
             </div>
-            <div class="mapSectionDivClass flexOneOneClass widthAdjFullClass">
 
-                <i class="fa fa-map fa-5x flexOneOneClass borderRightCrimsonDivLine"></i>
-                <div class="profileInfoDivClass flexOneOneClass">
+            <div class="flexify flx_1_1 fulWidth_strch">
 
-                    <div class="flexOneOneClass alignTopClass paddSmallClass heightAdjFullClass">
+                <div class="flx_4_1 fontSize_Large flexify">
 
-                        <div class="titleTabProfileClass paddSmallClass">Map</div>
-                        <img src=""
-                        />
+                    <a href="#" class="txtDeco_None margin_10 themeGrey_TxtColrB">Practice Name<div class="themeGrey_BkgdColrC margin_5 padding_5 fa fa-pencil fa-1x"></div></a>
+                </div>
+                <div class="fa fa-image fa-5x margin_10 sCard flx_1_1"></div>
+                <div class="flx_4_1">Rating : 3.8</div>
+            </div>
+            <div class="themeBlack_BkgdColrC flexify flx_1_1 fulWidth_strch">
+
+                <div class="flx_4_1 fontSize_Large flexify">
+
+                    <div class="flexify flx_1_1 themeGrey_TxtColrB flexFlow_column">
+
+                        <div class="margin_10">Office Hours</div>
+                        <div class="margin_10">Location</div>
                     </div>
-                    <div class="flexOneOneClass alignTopClass paddSmallClass heightAdjFullClass">
-                        <div class="titleTabProfileClass paddSmallClass">Office Hours</div>
+                    <div class="flexify flx_2_1 themeGrey_TxtColrB flexFlow_column">
+
+                        <img src="../../../../resources/images/misc/map.png"
+                             class="mapImage"
+                        />
                     </div>
                 </div>
             </div>
-            <div class="flexOneOneClass widthAdjFullClass">
-
-                <i class="fa fa-medkit fa-5x flexOneOneClass borderRightCrimsonDivLine"></i>
-                <div class="profileInfoDivClass flexOneOneClass"></div>
-            </div>
         </div>
-        <div class="tooltipSectionClass widthAdjFullClass flexOneOneClass"></div>
-    </div>
-</div>
-</body>
+    </body>
 </html>

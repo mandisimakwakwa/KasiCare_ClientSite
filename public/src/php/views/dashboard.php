@@ -53,7 +53,7 @@
                     <img src="../../../../resources/images/misc/kasicare.png"
                          class="logoImg flx_1_1"
                     />
-                    <div class="flexify flx_8_1 fontSize_Larger"></div>
+                    <div class="flexify flx_8_1"></div>
                     <div class="btn_Small themeBlack_BkgdColrC algnTop">Sign Out</div>
                 </div>
 
