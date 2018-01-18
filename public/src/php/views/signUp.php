@@ -101,6 +101,7 @@
                                type="text"
                                placeholder="Please Enter Office Hours eg, 09H00-13h00"
                         />
+                        <button type="submit"> register</button>
                     </div>
                 </form>
 
