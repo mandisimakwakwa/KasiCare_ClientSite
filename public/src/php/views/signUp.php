@@ -181,8 +181,45 @@
         <script>
             
             $(document).ready(function(){
-                appSend.getGeo();
+                //appSend.getGeo();
             });
         </script>
+        <script>
+      function initMap() {
+       
+        appSend.getGeo();
+
+        // document.getElementById('submit').addEventListener('click', function() {
+        //   geocodeLatLng(geocoder, map, infowindow);
+        // });
+      }
+
+      function geocodeLatLng(geocoder, infowindow,pos) {
+        var input = document.getElementById('geolocation').value;
+        var latlngStr = input.split(',', 2);
+        var latlng = {lat: parseFloat(pos.latitude), lng: parseFloat(pos.longitude)};
+        geocoder.geocode({'location': latlng}, function(results, status) {
+          if (status === 'OK') {
+            if (results[0]) {
+            //   map.setZoom(11);
+            //   var marker = new google.maps.Marker({
+            //     position: latlng,
+            //     map: map
+            //   });
+              document.getElementById('geolocation').value = results[0].formatted_address;
+              //infowindow.setContent(results[0].formatted_address);
+              //infowindow.open(map, marker);
+            } else {
+              console.log('No results found');
+            }
+          } else {
+            console.log('Geocoder failed due to: ' + status);
+          }
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjfk6vHUJsuVvFcw1SLMPBLWFaITiz2LQ&callback=initMap">
+    </script>
     </body>
 </html>
