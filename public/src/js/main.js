@@ -11,6 +11,9 @@ var appSet={
         lastname:"surname",
         cell:"phone"
     },
+    prac:{
+        practiceSpeciality:
+    },
     post:{submit:"add_user",gender:"d"},
 }
 $("#register").submit(function(e){
