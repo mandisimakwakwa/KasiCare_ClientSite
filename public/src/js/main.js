@@ -12,7 +12,9 @@ var appSet={
         cell:"phone"
     },
     prac:{
-        practiceSpeciality:
+        practice_speciality:"",
+        practice_services:"",
+        office_hours:""
     },
     post:{submit:"add_user",gender:"d"},
 }
