@@ -66,7 +66,7 @@ var appSend = {
         console.log(pos);
         document.getElementById("geolocation").value = pos.coords.longitude + ',' 
         + pos.coords.latitude;
-         
+         appSend.pos = pos.coords;
         var geocoder = new google.maps.Geocoder;
         var infowindow = new google.maps.InfoWindow;
         geocodeLatLng(geocoder, infowindow,pos.coords );

@@ -195,8 +195,7 @@
       }
 
       function geocodeLatLng(geocoder, infowindow,pos) {
-        var input = document.getElementById('geolocation').value;
-        var latlngStr = input.split(',', 2);
+        
         var latlng = {lat: parseFloat(pos.latitude), lng: parseFloat(pos.longitude)};
         geocoder.geocode({'location': latlng}, function(results, status) {
           if (status === 'OK') {
