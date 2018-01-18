@@ -62,8 +62,9 @@ var appSend = {
         }
     },
     onSs:function(pos){
-        document.getElementById("geolocation").value = pos.coords.Longitude.toString() + '-' 
-        + pos.coords.Latitude.toString();
+        console.log(pos);
+        document.getElementById("geolocation").value = pos.coords.longitude + ',' 
+        + pos.coords.latitude;
     },
     onEr:function(error){
         console.log(error);
