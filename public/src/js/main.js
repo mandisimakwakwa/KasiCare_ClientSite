@@ -24,18 +24,18 @@ var appSet={
 $("#register").submit(function(e){
     e.preventDefault();
     var inputs =  $("form#register").serializeArray();
-    //if (inputs["passwordCheck"].value === inputs["password"].value){
-        appSend.formInput(inputs,"add_user");
-    //}else{
+    if (inputs["passwordCheck"].value === inputs["password"].value){
+        appSend.formInput(inputs,"add_institution");
+    }else{
 
-    //}
-    console.log(appSet.post);
+    }
+    //console.log(appSet.post);
 });
 $("#register_admin").submit(function(e){
     e.preventDefault();
-    var inputs =  $("form#register").serializeArray();
+    var inputs =  $("form#register_admin").serializeArray();
     //if (inputs["passwordCheck"].value === inputs["password"].value){
-        appSend.formInput(inputs,"add_user");
+    appSend.formInput(inputs,"add_user");
     //}else{
 
     //}
@@ -62,17 +62,17 @@ var appSend = {
         var serv = appSet.post["service"].split(',');
        serv.push(appSet.post["services"]);
        appSet.post["services"] =JSON.stringify(serv.reverse());
-        console.log(appSet.post["services"]);
-        // $.post(appSet.url,appSet.post,function(resp){
-        //     try{
-        //         var j_resp = JSON.parse(resp);
-        //         console.log(j_resp);
-        //         appSend.switchActions(j_resp);
-        //         appSet.post = {};//reset posted variables
-        //     }catch(exc){
-        //         console.log(exc);
-        //     }
-        // });
+        //console.log(appSet.post["services"]);
+        $.post(appSet.url,appSet.post,function(resp){
+            try{
+                var j_resp = JSON.parse(resp);
+                console.log(j_resp);
+                appSend.switchActions(j_resp);
+                appSet.post = {};//reset posted variables
+            }catch(exc){
+                console.log(exc);
+            }
+        });
     },
     switchActions:function(resp){
         switch(resp){
