@@ -90,7 +90,7 @@
                     Check Up
                 </div>
                 <div class="flx_1_1 flexFlow_row">
-                    Health Condition Checkup
+                    Health Condition Checkup's
                 </div>
                 <div class="flx_1_1 flexFlow_row">
                     R300.00
