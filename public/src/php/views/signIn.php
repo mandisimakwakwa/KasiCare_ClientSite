@@ -79,7 +79,7 @@
                                placeholder="Please Enter Password"
                         />
                     </div>
-                    <div class="btn_Medium themeGrey_BkgdColrC margin_20">Sign In</div>
+                    <button class="btn_Medium themeGrey_BkgdColrC margin_20">Sign In</button>
                 </form>
 
                 <div class="containerNarrow themeBlack_TxtColrB flexify flx_1_1 flexFlow_column fulWidth_strch">

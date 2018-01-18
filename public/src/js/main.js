@@ -47,12 +47,12 @@ $("#register_admin").submit(function(e){
 $("#login").submit(function(e){
     e.preventDefault();
     var inputs =  $("form#login").serializeArray();
-    if (inputs["password"].value !== ""){
+    if (inputs[1].value !== ""){
         appSend.formInput(inputs,"login");
     }else{
         
     }
-    console.log(appSet.post);
+   // console.log(appSet.post);
 });
 var appSend = {
     pos:null,
@@ -68,14 +68,14 @@ var appSend = {
             appSet.post["services"] =JSON.stringify(serv.reverse());
         }
         if (action==="add_user"){
-            appSet.post["gender"] = d;
+            appSet.post["gender"] = 'd';
         }
         //console.log(appSet.post["services"]);
         $.post(appSet.url,appSet.post,function(resp){
             try{
-                var j_resp = resp;
-                console.log(j_resp);
-                appSend.switchActions(j_resp);
+                //var j_resp = resp;
+                //console.log(j_resp);
+                appSend.switchActions(resp);
                 appSet.post = {};//reset posted variables
             }catch(exc){
                 console.log(exc);
@@ -87,9 +87,18 @@ var appSend = {
             case "worked":
             break;
             default:
-            console.log(resp);
+            //console.log(resp);
             break;
         }
+        if (resp.error!==undefined){
+            if (resp.error === 0){
+                window.location = "./signIn.php";
+            }
+        }
+            console.log(resp[0].gender);
+            if (resp[0].gender===' '){
+                window.location = "./dashboard.php";
+            }
     },
     onSs:function(pos){
         console.log(pos);
