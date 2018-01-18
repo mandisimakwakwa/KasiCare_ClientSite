@@ -166,7 +166,7 @@
                         />
                     </div>
 
-                    <div class="btn_Medium themeDPink_BkgdColrB">Submit</div>
+                    <button  type="submit" class="btn_Medium themeDPink_BkgdColrB">Submit</button>
                 </form>
 
                 <div class="containerNarrow themeBlack_TxtColrB flexify flx_1_1 flexFlow_column fulWidth_strch">

@@ -3,12 +3,13 @@
 * */
 
 var appSet={
-    url:"https://localhost/mvc/api",
+    url:"http://localhost/mvc/api",
     arr:{
         practice_speciality:"services",
         practice_services:"service",
         office_hours:"",
         email:"email",
+        geolocation:"address",
         password:"user_passcode",
         practiceName:"name",
         username:"name",
@@ -23,22 +24,24 @@ var appSet={
 }
 $("#register").submit(function(e){
     e.preventDefault();
+    console.log(appSet.post);
     var inputs =  $("form#register").serializeArray();
-    if (inputs["passwordCheck"].value === inputs["password"].value){
+    //if (inputs["passwordCheck"].value === inputs["password"].value){
         appSend.formInput(inputs,"add_institution");
-    }else{
+    //}else{
 
-    }
+    //}
     //console.log(appSet.post);
 });
 $("#register_admin").submit(function(e){
     e.preventDefault();
     var inputs =  $("form#register_admin").serializeArray();
-    //if (inputs["passwordCheck"].value === inputs["password"].value){
+    console.log(inputs);
+    if (inputs[3].value === inputs[3].value){
     appSend.formInput(inputs,"add_user");
-    //}else{
+    }else{
 
-    //}
+    }
     console.log(appSet.post);
 });
 $("#login").submit(function(e){
@@ -57,22 +60,27 @@ var appSend = {
         $.each(inputs,function(data,key){
             appSet.post[appSet.arr[inputs[data].name]] = inputs[data].value;
         });
-
         appSet.post["submit"] = action;
-        var serv = appSet.post["service"].split(',');
-       serv.push(appSet.post["services"]);
-       appSet.post["services"] =JSON.stringify(serv.reverse());
+        if (action==="add_institute"){
+            
+            serv.push(appSet.post["services"]);
+            var serv = appSet.post["service"].split(',');
+            appSet.post["services"] =JSON.stringify(serv.reverse());
+        }
+        if (action===""){
+            appSet.post["gender"] = d;
+        }
         //console.log(appSet.post["services"]);
         $.post(appSet.url,appSet.post,function(resp){
             try{
-                var j_resp = JSON.parse(resp);
+                var j_resp = resp;
                 console.log(j_resp);
                 appSend.switchActions(j_resp);
                 appSet.post = {};//reset posted variables
             }catch(exc){
                 console.log(exc);
             }
-        });
+        },"JSON");
     },
     switchActions:function(resp){
         switch(resp){
