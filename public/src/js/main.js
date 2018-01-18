@@ -67,7 +67,7 @@ var appSend = {
             var serv = appSet.post["service"].split(',');
             appSet.post["services"] =JSON.stringify(serv.reverse());
         }
-        if (action===""){
+        if (action==="add_user"){
             appSet.post["gender"] = d;
         }
         //console.log(appSet.post["services"]);
