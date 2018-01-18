@@ -34,6 +34,7 @@ $("#login").submit(function(e){
     console.log(appSet.post);
 });
 var appSend = {
+    pos:null,
     formInput:function(inputs,action){
         $.each(inputs,function(data,key){
             appSet.post[appSet.arr[inputs[data].name]] = inputs[data].value;
@@ -65,11 +66,16 @@ var appSend = {
         console.log(pos);
         document.getElementById("geolocation").value = pos.coords.longitude + ',' 
         + pos.coords.latitude;
+         
+        var geocoder = new google.maps.Geocoder;
+        var infowindow = new google.maps.InfoWindow;
+        geocodeLatLng(geocoder, infowindow,pos.coords );
     },
     onEr:function(error){
         console.log(error);
     },
     getGeo:function(){
         navigator.geolocation.getCurrentPosition(appSend.onSs,appSend.onEr);
+        
     }
 }
