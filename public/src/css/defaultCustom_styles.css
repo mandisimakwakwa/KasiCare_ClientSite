@@ -32,6 +32,9 @@
 
         /* Animation */
     }
+    img {
+        object-fit: contain !important;
+    }
 
     .flx_1_1{
         flex: 1 1;

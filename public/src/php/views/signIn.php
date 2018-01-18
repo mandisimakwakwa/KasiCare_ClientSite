@@ -34,6 +34,7 @@
         <link rel="stylesheet"
               href="../../css/debug.css"
         >
+        <script src="../../js/jquery.min.js"></script>
 
         <title>Sign In</title>
     </head>
@@ -58,7 +59,7 @@
                     <h1>Admin</h1>
                 </div>
 
-                <form action="#"
+                <form id="login" action="#"
                       method="post"
                       class="flexify flexFlow_column"
                 >
@@ -90,5 +91,6 @@
                 </div>
             </div>
         </div>
+        <script src="../../js/main.js"></script>
     </body>
 </html>
